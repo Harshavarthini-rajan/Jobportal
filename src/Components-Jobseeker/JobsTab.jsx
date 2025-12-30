@@ -2,30 +2,21 @@ import React, { useState } from 'react'
 import './JobsTab.css'
 import { Footer } from '../Components-LandingPage/Footer'
 import { Link } from 'react-router-dom';
-import breifcase from '../assets/header_case.png'
-import chat from '../assets/header_message.png'
-import bell from '../assets/header_bell.png'
-import bell_dot from '../assets/header_bell_dot.png'
-import profile from '../assets/header_profile.png'
 import search from '../assets/icon_search.png'
 import location from '../assets/icon_location.png'
 import tick from '../assets/icon_tick.png'
-import { JNotification } from './JNotification';
-import { Joblist } from '../JobList';
+import { Joblist } from "../JobList";
 import { OpportunitiesCard } from './OpportunitiesCard';
-import { notificationsData } from './Afterloginlanding'; 
+import { JHeader } from './JHeader';
 
 export const JobsTab = () => {
-    const [showNotification, setShowNotification] = useState(false);
-    const newNotificationsCount = notificationsData ? notificationsData.filter(n => n.isNew).length : 0;
-
     const displayCount = 10;
     const [currentPage, setCurrentPage] = useState(1);
 
     const indexofLastjob = currentPage * displayCount;
     const indexoffirstjob = indexofLastjob - displayCount;
 
-    const currentPost = Joblist.slice(indexoffirstjob, indexofLastjob);
+    const currentJobCards = Joblist.slice(indexoffirstjob, indexofLastjob);
     const totalpages = Math.ceil(Joblist.length / displayCount);
 
     const HandlePrev = () => {
@@ -90,23 +81,7 @@ export const JobsTab = () => {
 
     return (
         <>
-            <header className="header">
-                <div className="logo">job portal</div>
-                <nav className="nav-links">
-                    <Link to="/Job-portal/jobseeker/" className="nav-item" >Home</Link>
-                    <a href="#" className="nav-item nav-active" >Jobs</a>
-                    <Link to="/Job-portal/jobseeker/companies" className="nav-item" >Companies</Link>
-                </nav>
-
-                <div className="auth-links">
-                    <Link to="/Job-portal/jobseeker/myjobs"><img className='header-icons' src={breifcase} alt='My Jobs' /></Link>
-                    <div><img className='header-icons' src={chat} alt='Messages' /></div>
-                    <div onClick={() => setShowNotification(!showNotification)}><img className='header-icons' src={newNotificationsCount > 0 ? bell_dot : bell} alt='Notifications' /></div>
-                    <Link to="/Job-portal/jobseeker/myprofile"><img className='header-icons' src={profile} alt='My Profile' /></Link>
-                </div>
-                <JNotification notificationsData={notificationsData || []} showNotification={showNotification} setShowNotification={setShowNotification} />
-            </header>
-
+            <JHeader />
             <div className='jobs-tab-search-bar'>
                 <div className="search-bar">
                     <div className="search-field">
@@ -140,7 +115,7 @@ export const JobsTab = () => {
                 <div className='Opportunities-section'>
                     <h2 className='Opportunities-title'>Jobs For You</h2>
                     <div className="Opportunities-job-list">
-                        {currentPost.map((job, id) => (
+                        {currentJobCards.map((job, id) => (
                             <OpportunitiesCard key={id} job={job} />
                         ))}
                     </div>

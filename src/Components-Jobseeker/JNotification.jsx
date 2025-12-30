@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./JNotification.css";
-import bell from "../assets/header_bell.png";
-import bell_dot from "../assets/header_bell_dot.png";
+import './JNotification.css'
+import bell from '../assets/header_bell.png'
+import bell_dot from '../assets/header_bell_dot.png'
 
 export const JNotification = ({ notificationsData, showNotification, setShowNotification }) => {
     const [notifications, setNotifications] = useState(notificationsData);
@@ -158,7 +158,7 @@ export const JNotification = ({ notificationsData, showNotification, setShowNoti
 
                 {notifications.length === 0 && (
                     <p style={{ padding: "20px", textAlign: "center", color: "#777" }}>
-                        No notifications
+                        No notifications for you
                     </p>
                 )}
             </div>

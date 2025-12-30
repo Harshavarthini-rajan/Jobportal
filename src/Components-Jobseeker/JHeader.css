@@ -1,3 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+  width: 100%;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .header-icons {
   height: 28px;
   margin: 15px;
@@ -5,13 +18,22 @@
 }
 
 .jheader-icons {
-  height: 28px;
   cursor: pointer;
   padding: 15px;
   border-radius: 25px;
+  width: 22px;
+  height: 22px;
 }
+
+.jheader-icons-active {
+  background-color: #E9F3FC;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 15px;
+  height: 28px;
+}
+
 .jheader-nav-links {
-  margin-left: 10%;
   display: flex;
   gap: 24px;
 }
@@ -29,14 +51,42 @@
   padding: 8px 12px;
   color: #000;
   font-weight: 500;
-  text-decoration: None;
+  text-decoration: none;
   border-radius: 8px;
 }
-.jheader-icons-active{
-  background-color:#E9F3FC ;
-   height: 28px;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 15px;
-  
+
+.auth-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+  }
+
+  .logo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .jheader-nav-links {
+    display: none;
+  }
+
+  .jheader-icons,
+  .jheader-icons-active {
+    height: 22px;
+    width: 22px;
+    padding: 8px;
+  }
+
+  .auth-links {
+    margin-top: 8px;
+    gap: 12px;
+  }
 }

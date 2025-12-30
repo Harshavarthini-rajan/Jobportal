@@ -26,17 +26,17 @@ body {
   gap: 12px;
 }
 
+.signup-illustration img{
+  height: 560px;
+  margin-left: 100px;
+}
+
 .j-sign-up-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 60px;
-}
-
-.signup-illustration img {
-  height: 560px;
-  margin-left: 100px;
-}
+} 
 
 .j-sign-up-form {
   max-width: 500px;
@@ -44,7 +44,7 @@ body {
   background: #fff;
   padding: 20px 0;
   margin-right: 100px;
-  transform: translateY(-15px);
+  transform: translateY(-15px); 
 }
 
 .j-sign-up-form h2 {
@@ -84,40 +84,46 @@ body {
   cursor: pointer;
 }
 
-.input-error {
-  border-color: red;
-}
-
-.error-msg {
-  color: red;
-  font-size: 12px;
-  margin-top: 4px;
-  display: block;
-}
-
 @media (max-width: 768px) {
+
   .j-sign-up-header {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     padding: 16px 20px;
     gap: 10px;
   }
-
+ 
   .j-sign-up-header-links {
     width: 100%;
     flex-wrap: wrap;
     gap: 10px;
     font-size: 14px;
   }
-
+ 
   .j-sign-up-body {
     flex-direction: column;
     justify-content: center;
     padding: 30px 20px;
   }
-
+ 
+ 
   .signup-illustration {
     display: none;
+  }
+
+  .j-sign-up-header .no-account, 
+  .j-sign-up-header .employer-redirect-link, 
+  .j-sign-up-header .separator {
+    display: none;
+  }
+ 
+  .j-sign-up-header .signup-btn {
+    display: inline-flex;
+    white-space: nowrap;
+  }
+  .j-sign-up-header .j-sign-up-header-links {
+    width: auto;
+    justify-content: flex-end;
   }
 
   .j-sign-up-form {
@@ -126,33 +132,10 @@ body {
     width: 100%;
     transform: none;
   }
-
+ 
   .j-sign-up-form h2 {
     font-size: 26px;
     text-align: center;
     margin-bottom: 20px;
-  }
-
-  .j-sign-up-submit {
-    width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .j-sign-up-form h2 {
-    font-size: 24px;
-  }
-
-  .j-sign-up-form label {
-    font-size: 13px;
-  }
-
-  .j-sign-up-form input {
-    font-size: 14px;
-  }
-
-  .j-sign-up-submit {
-    font-size: 15px;
-    padding: 12px;
   }
 }

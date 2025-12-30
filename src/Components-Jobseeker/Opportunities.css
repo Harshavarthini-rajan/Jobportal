@@ -12,12 +12,11 @@
 
 .Opportunities-job-list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  justify-items: center;
-  margin-top: 40px;
-  margin-left: 125px;
-  margin-right: 145px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 .Opportunities-view-more-btn {
@@ -36,4 +35,38 @@
 .Opportunities-view-more-btn:hover {
   background: #1E88E5;
   color: #fff;
+}
+
+
+@media (max-width: 768px) {
+
+  .Opportunities-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .Opportunities-job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 12px;
+    margin: 0;
+  }
+
+  .Opportunities-job-list > div {
+    width: 100% ;
+    max-width: 100% ;
+  }
+}
+
+@media (max-width: 480px) {
+  .Opportunities-title {
+    font-size: 22px;
+  }
+
+  .Opportunities-view-more-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+  }
 }

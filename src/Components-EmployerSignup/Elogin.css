@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .login-header {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     gap: 10px;
     padding: 16px 20px;
   }
@@ -15,8 +15,22 @@
     display: none;
   }
 
-  .login-form {
-    width: 100%;
-    max-width: 420px;
+  .login-header .no-account,
+  .login-header .employer-redirect-link,
+  .login-header .separator {
+    display: none;
+  }
+
+  .login-header .signup-btn {
+    display: inline-flex;
+  }
+
+  .login-header .header-links {
+    width: auto;
+    justify-content: flex-end;
+  }
+  .login-header .signup-btn {
+    display: inline-flex;
+    white-space: nowrap;
   }
 }

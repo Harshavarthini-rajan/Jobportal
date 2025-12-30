@@ -7,7 +7,7 @@ import InfyLogo from './assets/INFY_BIG.png'
 import Tcs from './assets/TCS.png'
 import metaLogo from './assets/META_BIG.png'
 
-export const CompanyList = [
+export const CompaniesList = [
   {
     "companyName": "Apple IN",
     "companyId": "AIN001",

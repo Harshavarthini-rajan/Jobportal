@@ -16,6 +16,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr; 
   gap: 40px;
+  align-items: stretch;
 }
 
 .companies-tab-card {
@@ -28,6 +29,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  min-height: 360px;
 }
 
 .companies-tab-logo-container {
@@ -38,7 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .companies-tab-logo {
@@ -51,7 +54,8 @@
   font-size: 18px;
   font-weight: bold;
   color: #333;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
+  min-height: 48px;
 }
 
 .companies-tab-rating-reviews {
@@ -59,7 +63,8 @@
   align-items: center;
   font-size: 14px;
   color: #032240;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  min-height: 22px;
 }
 
 .companies-tab-rating-star {
@@ -72,22 +77,22 @@
 }
 
 .companies-tab-desc {
-  font-size: 17px;
+  font-size: 15px;
   color: #032240;
-  margin-bottom: 15px;
-  min-height: 40px; 
+  margin-bottom: 16px;
+  min-height: 44px; 
 }
 
 .companies-tab-view-jobs-btn {
   background-color: #1E88E5;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s;
   width: 100%;
+  margin-top: auto;
 }
 
 .companies-tab-view-jobs-btn:hover {
@@ -97,5 +102,5 @@
 .companies-tab-view-all-container {
   display: flex;
   justify-content: center;
-  margin-top: 80px; 
+  margin-top: 40px; 
 }

@@ -1,8 +1,8 @@
 .footer-section {
   background: linear-gradient(to bottom, #ffffff, #eaf6ff);
-  padding: 60px 20px 20px;
+  padding: 32px 20px 16px;   
   color: #1f1f1f;
-  margin-top: 40px;
+  margin-top: 12px;         
 }
 
 .footer-top {
@@ -16,7 +16,7 @@
 .footer-link-section {
   flex: 1;
   min-width: 180px;
-  margin: 20px;
+  margin: 12px;            
 }
 
 .footer-logo {
@@ -28,13 +28,13 @@
 .tagline {
   color: #666;
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;    
   max-width: 260px;
 }
 
 .social-icon {
   font-size: 18px;
-  margin-right: 15px;
+  margin-right: 12px;
   color: #2b8fed;
   cursor: pointer;
 }
@@ -42,7 +42,7 @@
 .footer-link-section h3 {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 12px;    
 }
 
 .footer-link-section ul {
@@ -51,7 +51,7 @@
 }
 
 .footer-link-section li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;      
   font-size: 15px;
   color: #333;
   cursor: pointer;
@@ -60,26 +60,28 @@
 .footer-bottom {
   border-top: 1px solid #ddd;
   text-align: center;
-  margin-top: 40px;
-  padding-top: 15px;
+  margin-top: 24px;       
+  padding-top: 12px;       
   font-size: 14px;
   color: gray;
 }
 
+/* Tablet */
 @media (max-width: 1024px) {
   .footer-top {
     justify-content: center;
   }
 
   .footer-link-section {
-    margin: 16px;
+    margin: 12px;
   }
 }
 
+/* Mobile */
 @media (max-width: 768px) {
-
   .footer-section {
-    padding: 40px 16px 16px;
+    padding: 24px 16px 12px;   /* ⬅ compact mobile spacing */
+    margin-top: 8px;
   }
 
   .footer-top {
@@ -89,19 +91,20 @@
   }
 
   .footer-link-section {
-    margin: 16px 0;
+    margin: 12px 0;
     width: 100%;
   }
 
   .tagline {
-    margin: 10px auto 20px;
+    margin: 8px auto 16px;
   }
 
   .social-icon {
-    margin: 0 10px;
+    margin: 0 8px;
   }
 }
 
+/* Small Mobile */
 @media (max-width: 480px) {
   .footer-logo {
     font-size: 26px;

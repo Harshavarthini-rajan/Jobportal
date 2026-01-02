@@ -17,3 +17,11 @@
 .info-image{
     width: 80px;
 }
+
+@media screen and (max-width: 768px) {
+  .infocard {
+    width: 100%; 
+    max-width: 320px; 
+    margin-bottom: 2rem; 
+  }
+}

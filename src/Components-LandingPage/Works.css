@@ -17,3 +17,15 @@
     margin-top: 30px;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+  .infocard-section{
+    gap: 2rem; 
+    justify-content: center; 
+  }
+
+  .work-heading {
+    font-size: 28px; 
+    text-align: center;
+  }
+}

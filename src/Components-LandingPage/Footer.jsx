@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
@@ -19,7 +20,7 @@ export const Footer = () => {
         <div className="footer-link-section">
           <h3>Quick Links</h3>
           <ul>
-            <li>About Us</li>
+            <Link to={'/Job-portal/aboutus'}><li>About Us</li></Link>
             <li>Contact Us</li>
             <li>FAQs</li>
             <li>Blog</li>

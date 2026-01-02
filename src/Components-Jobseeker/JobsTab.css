@@ -1,66 +1,59 @@
 .jobs-tab-search-bar {
-    margin-top: 12rem;
-    margin-bottom: 5rem;
-    margin-right: 15rem;
-    margin-left: 15rem;
+    margin: 12rem 15rem 5rem 15rem; 
 }
 
-/* --- Pagination Container --- */
 .Navigation-job-Tab {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 40px 0;
-    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
-    gap: 15px; /* Adds space between elements when they wrap */
+    flex-wrap: wrap; 
+    gap: 15px; 
 }
 
-/* --- Next / Prev Buttons --- */
 .Navigation-btn {
-    background-color: #1E88E5; 
+    background-color: #1E88E5;
     color: white;
     border: 1px solid #1E88E5;
-    min-width: 100px; 
+    min-width: 100px;
     padding: 10px 20px;
-    cursor: pointer; 
-    border-radius: 6px; /* Slightly softer corners */
-    font-weight: 600; 
+    cursor: pointer;
+    border-radius: 6px; 
+    font-weight: 600;
     font-size: 14px;
     letter-spacing: 0.5px;
-    box-shadow: 0 4px 6px rgba(30, 136, 229, 0.2); /* Adds depth */
+    box-shadow: 0 4px 6px rgba(30, 136, 229, 0.2); 
     transition: all 0.3s ease;
 }
 
 .Navigation-btn:hover:not(:disabled) {
-    background-color: #1565C0; /* Slightly darker shade on hover for effect */
+    background-color: #1565C0; 
     border-color: #1565C0;
-    transform: translateY(-2px); /* Lifts button slightly */
+    transform: translateY(-2px); 
     box-shadow: 0 6px 8px rgba(30, 136, 229, 0.3);
 }
-
+ 
 .Navigation-btn:active:not(:disabled) {
     transform: translateY(0);
     box-shadow: 0 2px 4px rgba(30, 136, 229, 0.2);
 }
-
+ 
 .Navigation-btn:disabled {
     cursor: not-allowed;
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
     color: #aeb5bc;
     border: 1px solid #ced4da;
     box-shadow: none;
     transform: none;
 }
-
-/* --- Page Numbers Area --- */
 .page-numbers {
   display: flex;
   gap: 8px;
-  flex-wrap: wrap; /* Ensures numbers wrap to next row if there are many */
+  flex-wrap: wrap; 
   justify-content: center;
 }
+ 
 
-/* --- Individual Page Circles --- */
 .page-btn {
   background: transparent;
   border: 1px solid transparent;
@@ -75,13 +68,13 @@
   transition: all 0.2s ease;
   cursor: pointer;
 }
-
+ 
 .page-btn:hover {
-    background-color: #e3f2fd; /* Very light blue hover */
+    background-color: #e3f2fd; 
     color: #1E88E5;
 }
+ 
 
-/* Active State */
 .page-btn.active {
   background: #007bff;
   color: #fff;
@@ -89,8 +82,8 @@
   box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
   font-weight: 600;
 }
+ 
 
-/* Ellipsis (...) Styling */
 .dots {
     display: flex;
     align-items: flex-end;
@@ -100,4 +93,103 @@
     padding-bottom: 8px;
     font-weight: bold;
     pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+   
+    .jobs-tab-search-bar {
+        margin: 8rem 1rem 3rem 1rem; 
+        padding: 0;
+    }
+
+    
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        padding: 15px;
+        gap: 10px;
+        height: auto; 
+    }
+  
+    .search-field {
+        width: 100%;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 12px 0;
+        display: flex;
+        align-items: center;
+    }
+  
+    .separator {
+        display: none;
+    }
+  
+    .search-field:nth-last-of-type(1) {
+        border-bottom: none;
+    }
+  
+    .search-field input,
+    .search-field select {
+        font-size: 16px;
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+  
+    .search-button {
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+
+    
+    .Opportunities-job-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    .Opportunities-title {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    
+    .Navigation-job-Tab {
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px;
+        margin: 30px 0;
+        padding: 0 10px;
+    }
+
+    .Navigation-btn {
+        padding: 8px 12px;
+        font-size: 13px;
+        min-width: 80px; 
+    }
+
+    .page-numbers {
+        order: 3; 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .page-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .dots {
+        margin: 0 5px;
+        width: auto;
+    }
 }

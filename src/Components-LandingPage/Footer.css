@@ -66,7 +66,6 @@
   color: gray;
 }
 
-/* Tablet */
 @media (max-width: 1024px) {
   .footer-top {
     justify-content: center;
@@ -77,10 +76,9 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .footer-section {
-    padding: 24px 16px 12px;   /* ⬅ compact mobile spacing */
+    padding: 24px 16px 12px; 
     margin-top: 8px;
   }
 
@@ -104,7 +102,6 @@
   }
 }
 
-/* Small Mobile */
 @media (max-width: 480px) {
   .footer-logo {
     font-size: 26px;

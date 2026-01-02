@@ -33,7 +33,6 @@ export const JHeader = () => {
     <header className="header">
       <div className="logo">job portal</div>
 
-      {/* Desktop navigation */}
       <nav className="jheader-nav-links">
         {NavLinks.map(link => (
           <NavLink
@@ -70,7 +69,6 @@ export const JHeader = () => {
 
         <AvatarMenu />
 
-        {/* Mobile Home Icon (Menu Trigger) */}
         <div
           className="nav-icons home-icon"
           onClick={() => setShowMobileMenu(!showMobileMenu)}
@@ -78,7 +76,6 @@ export const JHeader = () => {
           <img src={headerhome} className="jheader-icons" alt="Home Menu" />
         </div>
 
-        {/* Mobile dropdown menu */}
         {showMobileMenu && (
           <div className="mobile-home-menu">
             {NavLinks.map(link => (

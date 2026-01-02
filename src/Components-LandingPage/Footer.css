@@ -1,8 +1,8 @@
 .footer-section {
   background: linear-gradient(to bottom, #ffffff, #eaf6ff);
-  padding: 32px 20px 16px;   
+  padding: 40px 20px 20px;
   color: #1f1f1f;
-  margin-top: 12px;         
+  margin-top: 20px;
 }
 
 .footer-top {
@@ -16,7 +16,7 @@
 .footer-link-section {
   flex: 1;
   min-width: 180px;
-  margin: 12px;            
+  margin: 20px;
 }
 
 .footer-logo {
@@ -28,13 +28,12 @@
 .tagline {
   color: #666;
   font-size: 14px;
-  margin-bottom: 16px;    
-  max-width: 260px;
+  margin-bottom: 20px;
 }
 
 .social-icon {
   font-size: 18px;
-  margin-right: 12px;
+  margin-right: 15px;
   color: #2b8fed;
   cursor: pointer;
 }
@@ -42,7 +41,7 @@
 .footer-link-section h3 {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 12px;    
+  margin-bottom: 15px;
 }
 
 .footer-link-section ul {
@@ -51,71 +50,61 @@
 }
 
 .footer-link-section li {
-  margin-bottom: 8px;      
+  margin-bottom: 10px;
   font-size: 15px;
   color: #333;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .footer-bottom {
   border-top: 1px solid #ddd;
   text-align: center;
-  margin-top: 24px;       
-  padding-top: 12px;       
+  margin-top: 40px;
+  padding-top: 15px;
   font-size: 14px;
   color: gray;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 768px) {
+  
   .footer-top {
-    justify-content: center;
+    display: flex;
+    flex-direction: row;      
+    flex-wrap: wrap;          
+    justify-content: space-around; 
+    padding: 0 10px;          
   }
 
   .footer-link-section {
-    margin: 12px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer-section {
-    padding: 24px 16px 12px; 
-    margin-top: 8px;
+    flex: 0 0 48%;            
+    margin: 0 0 30px 0;      
+    min-width: auto;         
+    text-align: center;       
   }
 
-  .footer-top {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-link-section {
-    margin: 12px 0;
-    width: 100%;
-  }
-
-  .tagline {
-    margin: 8px auto 16px;
-  }
-
-  .social-icon {
-    margin: 0 8px;
-  }
-}
-
-@media (max-width: 480px) {
   .footer-logo {
-    font-size: 26px;
+    font-size: 24px;
+    margin-bottom: 10px;
   }
 
   .footer-link-section h3 {
-    font-size: 16px;
+    font-size: 16px;         
+    margin-bottom: 10px;
   }
 
   .footer-link-section li {
     font-size: 14px;
+    margin-bottom: 8px;
   }
 
-  .footer-bottom {
-    font-size: 13px;
+  .social-icon {
+    font-size: 18px;
+    margin-right: 10px;     
+  }
+  
+  .footer-link-section div:last-child {
+    display: flex;
+    flex-wrap: wrap;         
   }
 }

@@ -75,7 +75,6 @@ export const JHeader = () => {
         <Link to="/Job-portal/jobseeker/myjobs" className="nav-icons">
           <img src={breifcase} className="jheader-icons" alt="My Jobs" />
         </Link>
-
         <Link to="#" className="nav-icons">
           <img src={chat} className="jheader-icons" alt="Chat" />
         </Link>

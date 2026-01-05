@@ -55,26 +55,6 @@
   border-radius: 8px;
 }
 
-.mobile-home-menu {
-  position: absolute;
-  top: 100px;
-  right: 20px;
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-  display: flex;
-  flex-direction: column;
-  min-width: 160px;
-  z-index: 1000;
-}
-
-.mobile-menu-item {
-  padding: 10px 30px;
-  text-decoration: none;
-  color: #032240;
-  font-weight: 500;
-}
-
 .auth-links {
   display: flex;
   align-items: center;
@@ -122,6 +102,30 @@
 
   .home-icon {
     display: flex;
-    align-items: center;
+    position: relative; /* KEY FIX */
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  /* ✅ DROPDOWN OPENS BELOW HOME ICON */
+  .mobile-home-menu {
+    position: absolute;
+    top: 100px;                 /* below icon */
+    left: 20%;
+    transform: translateX(-50%);
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    z-index: 1000;
+  }
+
+  .mobile-menu-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #032240;
+    font-weight: 500;
   }
 }

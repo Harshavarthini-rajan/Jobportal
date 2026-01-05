@@ -63,15 +63,3 @@
   }
 }
 
-@media (max-width: 480px) {
-  .Opportunities-title {
-    font-size: 22px;
-  }
-
-  .Opportunities-view-more-btn {
-    width: 100%;
-    padding: 14px;
-    font-size: 16px;
-    margin-top: 24px;
-  }
-}

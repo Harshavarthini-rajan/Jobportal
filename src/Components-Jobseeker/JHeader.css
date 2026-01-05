@@ -107,10 +107,9 @@
     cursor: pointer;
   }
 
-  /* ✅ DROPDOWN OPENS BELOW HOME ICON */
   .mobile-home-menu {
     position: absolute;
-    top: 100px;                 /* below icon */
+    top: 100px;                
     left: 20%;
     transform: translateX(-50%);
     background: #fff;

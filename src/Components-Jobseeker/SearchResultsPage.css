@@ -1,0 +1,194 @@
+.search-result-title{
+    text-align: center;
+    margin: 80px 0 ;
+   
+   
+}
+.Mainsec-Search-Res{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    margin: 20px;
+    padding: 30px;
+    /* border-top: 0.2px solid #999; */
+    /* background-color: rebeccapurple; */
+   
+}
+.Aside{
+    position: sticky;
+    top: 10px;
+    /* background-color: bisque; */
+    padding: 20px;
+    /* margin-top: 30px; */
+    height: 700px;
+    overflow-y: scroll;  
+    /* background-color: bisque;  */
+    margin-left: 50px;  
+}
+.Aside::-webkit-scrollbar{
+    display: none;
+}
+ 
+.filter-applied{
+    color: steelblue;
+    font-weight: 600;
+    font-family: inter;
+    cursor: pointer;
+}
+.maincontent{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    width: fit-content;
+    margin-left: 30px;
+    /* padding: 50px; */
+    /* background-color: yellowgreen; */
+   
+}
+.jobs-card{
+    margin: 10px 20px;
+    /* border: 1px solid green; */
+    padding: 0px 50px;
+}
+.aside-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 0 20px;
+    border-bottom: 2px solid #777;
+}
+.Search-Worktype-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #999;
+ 
+}
+ 
+.Search-Worktype-Container input{
+    margin-right: 10px;
+}
+.Search-Worktype-Container label{
+    color: #83858B;
+    font-weight: 500;
+}
+.Search-Worktype-Container h4{
+    color:#032240 ;
+}
+ 
+.viewmore-btn{
+    width: fit-content  ;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background: none;
+    color: steelblue;
+    cursor: pointer;
+}
+.viewmore-cont{
+    display: flex;
+    margin-top: 15px;
+}
+.viewmore-cont img{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.viewmore-cont p{
+    font-weight: 600;
+    color: steelblue;
+    cursor: pointer;
+}
+hr{
+    margin-top: 20px;
+    border: 0.5px solid #999;
+}
+.filter-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #999;
+}
+.filter-section h4{
+    color:#032240 ;
+    margin-bottom: 10px;
+}
+.filter-section label{
+    color: #83858B;
+    font-weight: 500;
+}
+.filter-section input{
+    margin-right: 10px;
+}
+.filter-section .viewmore-cont{
+    margin-top: 10px;
+}
+.selected-filters{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.selected-filters div{
+    background-color: #E0F0FF;
+    color: #0366D6;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.selected-filters div img{
+    width: 12px;
+    height: 12px;
+}
+.clear-btn{
+    background: none;
+    border: none;
+    outline: none;
+    color: steelblue;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.no-jobs-found{
+    text-align: center;
+    margin-top: 100px;
+}
+.no-jobs-found h2{
+    color: #555;
+    margin-bottom: 20px;
+}
+.no-jobs-found p{
+    color: #777;
+}
+.no-jobs-found img{
+    width: 300px;
+    height: 300px;
+}
+@media (max-width: 768px) {
+    .Mainsec-Search-Res{
+        grid-template-columns: 1fr;
+    }
+    .Aside{
+        display: none;
+    }
+    .maincontent{
+        margin-left: 0;
+    }
+}
+
+
+ 
+

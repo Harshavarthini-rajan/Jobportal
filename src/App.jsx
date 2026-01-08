@@ -18,6 +18,9 @@ import { CompaniesTab } from './Components-Jobseeker/CompaniesTab'
 import { MyProfile } from './Components-Jobseeker/MyProfile'
 import { JobsThroughCompany } from './Components-Jobseeker/JobsThroughCompany'
 import { AboutUs } from './Components-LandingPage/AboutUs'
+import SearchResultsPage from './Components-Jobseeker/SearchResultsPage'
+
+
 
 const router = createBrowserRouter([
   {
@@ -93,9 +96,10 @@ const router = createBrowserRouter([
     path: '/Job-portal/aboutus',
     element: <AboutUs />,
   },
+  
   {
-    path: '*',
-    element: <h2>Page Not Found</h2>,
+  path: '/Job-portal/jobseeker/searchresults',
+ element: <SearchResultsPage/>
   },
 ])
 

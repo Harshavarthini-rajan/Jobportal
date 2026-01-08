@@ -14,20 +14,29 @@ export const Joblist = [
     title: "Software Engineer",
     company: "Apple IN",
     companyId: "AIN001",
+    logo: AppleLogo,
+    posted: "2025/11/01",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Engineering", "Development"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Full-time",
+
     ratings: 3.5,
     reviewNo: 533,
-    duration: "Full-time",
     salary: "12.0",
     experience: "3",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/01",
     openings: 8,
     applicants: 65,
-    WorkType: "Hybrid",
-    logo: AppleLogo,
-    IndustryType: "IT Services",
-    Department: "Engineering, Development",
+    tags: ["Full-time"],
+
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "MS/M.Sc (Science)", "Any Graduate"],
+    KeySkills: ["Python", "Go", "SQL", "Microservices", "AWS", "Distributed Systems"],
+
     JobHighlights: [
       "Experience with cloud platforms (AWS/GCP/Azure)",
       "Strong knowledge of data structures and algorithms",
@@ -43,26 +52,35 @@ export const Joblist = [
       "Participate in code reviews to ensure code quality and adherence to engineering best practices.",
       "Monitor and troubleshoot production issues and implement long-term solutions.",
       "Contribute to system architecture and technical design documentation."
-    ],
-    KeySkills: ["Python", "Go", "SQL", "Microservices", "AWS", "Distributed Systems"]
+    ]
   },
   {
     id: "70",
     title: "Project Manager",
     company: "Cognizant Technologies",
     companyId: "CTS001",
+    logo: Cts,
+    posted: "2025/11/01",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Project Management"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 3.9,
     reviewNo: 854,
-    duration: "Permanent",
-    salary: "11.0 - 18.0",
+    salary: "15",
     experience: "8",
     location: "Chennai",
-    tags: ["Full-time"],
-    posted: "2025/11/01",
     openings: 3,
     applicants: 45,
-    WorkType: "On-site",
-    logo: Cts,
+    tags: ["Full-time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "PG Diploma", "Any Postgraduate", "MCA", "Any Graduate"],
+    KeySkills: ["PMP/Prince2", "Risk Management", "Budget Management", "Agile", "Stakeholder Communication", "MS Project"],
+
     JobHighlights: [
       "PMP or Prince2 certification required",
       "Proven track record managing large-scale IT projects",
@@ -77,28 +95,35 @@ export const Joblist = [
       "Track project progress, identify and manage risks and dependencies, and implement corrective actions.",
       "Serve as the primary point of contact for client communication and stakeholder reporting.",
       "Ensure compliance with organizational standards and project management methodologies (Agile/Waterfall)."
-    ],
-    IndustryType: "IT Services",
-    Department: "Project Management",
-    KeySkills: ["PMP/Prince2", "Risk Management", "Budget Management", "Agile", "Stakeholder Communication", "MS Project"]
+    ]
   },
   {
     id: "76",
     title: "Data Analyst (Internship)",
     company: "InfoSys Technologies",
     companyId: "IST001",
+    logo: InfyLogo,
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Analytics", "Business Intelligence"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "3 months duration",
+
     ratings: 3.6,
     reviewNo: 1854,
-    duration: "3 months duration",
     salary: "3.5",
     experience: "2",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: InfyLogo,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Sc", "B.Tech/B.E.", "BCA", "Any Graduate", "MCA", "M.Sc (Science)"],
+    KeySkills: ["SQL", "Data Cleansing", "Power BI/Tableau", "Statistical Analysis", "Excel"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Proficiency in SQL and Data Manipulation",
@@ -113,28 +138,35 @@ export const Joblist = [
       "Collaborate with business consultants to understand reporting requirements.",
       "Ensure data quality and integrity across reporting processes.",
       "Present findings to project teams in a clear and concise manner."
-    ],
-    IndustryType: "IT Services",
-    Department: "Analytics, Business Intelligence",
-    KeySkills: ["SQL", "Data Cleansing", "Power BI/Tableau", "Statistical Analysis", "Excel"]
+    ]
   },
   {
     id: "81",
     title: "Data Analyst (Internship)",
     company: "Wipro Limited",
     companyId: "WIB001",
+    logo: Wipro,
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Analytics", "Business Intelligence"],
+    WorkType: "On-site",
+    Shift: "Night",
+    duration: "3 months duration",
+
     ratings: 3.8,
     reviewNo: 968,
-    duration: "3 months duration",
     salary: "3.5",
     experience: "0",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: Wipro,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Sc", "BCA", "B.Tech/B.E.", "B.Com", "Any Graduate"],
+    KeySkills: ["SQL", "Excel", "Data Cleaning", "Tableau/Power BI", "Data Interpretation"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Basic proficiency in SQL and Excel",
@@ -149,28 +181,35 @@ export const Joblist = [
       "Collaborate with senior analysts to interpret data findings and identify key trends.",
       "Document data sources, definitions, and analysis methodologies.",
       "Assist in the preparation of client presentations detailing project metrics."
-    ],
-    IndustryType: "IT Services",
-    Department: "Analytics, Business Intelligence",
-    KeySkills: ["SQL", "Excel", "Data Cleaning", "Tableau/Power BI", "Data Interpretation"]
+    ]
   },
   {
     id: "86",
     title: "Data Analyst (Internship)",
     company: "META",
     companyId: "MET001",
+    logo: metaLogo,
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Analytics"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "3 months duration",
+
     ratings: 4.2,
     reviewNo: 669,
-    duration: "3 months duration",
     salary: "3.5",
     experience: "0",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: metaLogo,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Sc (Science)", "MCA", "B.Sc", "Any Graduate"],
+    KeySkills: ["SQL", "Data Visualization", "Python/R", "Experimentation", "A/B Testing", "Data Analysis"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Basic proficiency in SQL and data visualization tools",
@@ -185,28 +224,35 @@ export const Joblist = [
       "Work closely with Data Scientists to validate data pipelines and report on data quality.",
       "Assist in the preparation of presentations for product managers and engineering leads.",
       "Document methodology and findings for repeatability and knowledge transfer."
-    ],
-    IndustryType: "IT Services",
-    Department: "Analytics",
-    KeySkills: ["SQL", "Data Visualization", "Python/R", "Experimentation", "A/B Testing", "Data Analysis"]
+    ]
   },
   {
     id: "96",
     title: "Software Engineer, L3",
     company: "Google",
     companyId: "GGL001",
+    logo: Google,
+    posted: "2025/11/20",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Engineering"],
+    WorkType: "Hybrid",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 4.4,
     reviewNo: 869,
-    duration: "Permanent",
     salary: "22.0",
     experience: "1",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/20",
     openings: 20,
     applicants: 300,
-    WorkType: "Hybrid",
-    logo: Google,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "MS/M.Sc (Science)", "Any Graduate"],
+    KeySkills: ["C++/Java/Python", "Algorithms", "Data Structures", "Distributed Systems", "Testing"],
+
     JobHighlights: [
       "Strong foundation in Computer Science, algorithms, and data structures",
       "Proficiency in C++, Java, or Python",
@@ -221,28 +267,35 @@ export const Joblist = [
       "Troubleshoot and debug production issues and contribute to system health monitoring.",
       "Contribute to the documentation of technical designs and API specifications.",
       "Mentor and guide junior engineers and interns on technical tasks."
-    ],
-    IndustryType: "IT Services",
-    Department: "Engineering",
-    KeySkills: ["C++/Java/Python", "Algorithms", "Data Structures", "Distributed Systems", "Testing"]
+    ]
   },
   {
     id: "95",
     title: "UI/UX Designer (Internship)",
     company: "Tata Consultancy Services",
     companyId: "TCS001",
+    logo: Tcs,
+    posted: "2025/11/01",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["UI/UX Design"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 3.9,
     reviewNo: 259,
-    duration: "6 months duration",
     salary: "4.5",
     experience: "1",
     location: "Kolkata",
-    tags: ["Internship"],
-    posted: "2025/11/01",
     openings: 6,
     applicants: 70,
-    WorkType: "On-site",
-    logo: Tcs,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Des", "B.Sc", "M.Des", "Diploma", "Any Graduate", "BFA"],
+    KeySkills: ["Figma", "Wireframes", "Prototyping", "User Research", "Visual Design", "HTML/CSS"],
+
     JobHighlights: [
       "Strong portfolio demonstrating design thinking approach",
       "Proficiency in Figma/Sketch and Prototyping tools",
@@ -257,28 +310,35 @@ export const Joblist = [
       "Collaborate with developers to ensure the technical feasibility of designs.",
       "Document design specifications and interaction patterns.",
       "Contribute to the organization and maintenance of the design system library."
-    ],
-    IndustryType: "IT Services",
-    Department: "Design",
-    KeySkills: ["Figma", "Wireframes", "Prototyping", "User Research", "Visual Design", "HTML/CSS"]
+    ]
   },
   {
     id: "71",
     title: "Data Analyst (Internship)",
     company: "Amazon",
     companyId: "AMZ001",
+    logo: AmazonLogo,
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["E-commerce", "IT Services"],
+    Department: ["Analytics"],
+    WorkType: "On-site",
+    Shift: "Night",
+    duration: "3 months duration",
+
     ratings: 4.2,
     reviewNo: 759,
-    duration: "3 months duration",
-    salary: 3.5,
+    salary: "3.5",
     experience: "2",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: AmazonLogo,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "BCA", "B.Sc", "M.Sc (Science)", "Any Graduate"],
+    KeySkills: ["SQL", "Redshift", "Data Visualization", "Python/R", "Statistical Analysis"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Proficiency in SQL and Data Warehousing",
@@ -293,28 +353,35 @@ export const Joblist = [
       "Collaborate with business teams to define key performance indicators (KPIs).",
       "Assist in A/B testing analysis and report on test results.",
       "Document data sources, data dictionaries, and analytical methodologies."
-    ],
-    IndustryType: "E-commerce, IT Services",
-    Department: "Analytics",
-    KeySkills: ["SQL", "Redshift", "Data Visualization", "Python/R", "Statistical Analysis"]
+    ]
   },
   {
     id: "1",
     title: "Data Analyst",
     company: "Tech Solutions Inc.",
     companyId: "TSI001",
+    logo: "",
+    posted: "2025/11/05",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["UI/UX Design", "Design"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "3 months duration",
+
     ratings: 3.5,
     reviewNo: 533,
-    duration: "3 months duration",
     salary: "3.5",
     experience: "2",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Sc", "B.Tech/B.E.", "M.Sc (Science)", "BCA", "Any Graduate"],
+    KeySkills: ["UX Research", "Wireframes", "Figma", "Photoshop", "HTML", "CSS"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Proven work experience as a UI/UX Designer",
@@ -333,29 +400,35 @@ export const Joblist = [
       "Identify and troubleshoot UX problems (e.g. responsiveness issues)",
       "Conduct layout adjustments based on user feedback.",
       "Adhere to style standards on fonts, colors, and images."
-    ],
-    IndustryType: "IT Services",
-    Department: "UX-UI, Design",
-    KeySkills: ["UX Research", "Wireframes", "Figma", "Photoshop", "HTML", "CSS"]
+    ]
   },
-
   {
     id: "2",
     title: "Software Development Engineer (SDE) I",
     company: "Innovate Software Corp.",
     companyId: "ISC001",
+    logo: "",
+    posted: "2025/10/05",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Software Product"],
+    Department: ["Engineering", "IT"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.5,
     reviewNo: 523,
-    duration: "Permanent",
     salary: "8.2",
     experience: "3",
     location: "Bangalore",
-    tags: ["Full-Time"],
-    posted: "2025/10/05",
     openings: 10,
     applicants: 150,
-    WorkType: "Hybrid",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "B.Sc", "Any Graduate", "MS/M.Sc (Science)"],
+    KeySkills: ["Java", "Python", "REST APIs", "SQL", "Git", "AWS"],
+
     JobHighlights: [
       "Opportunity for career growth",
       "Competitive salary package",
@@ -370,30 +443,35 @@ export const Joblist = [
       "Write and maintain comprehensive unit and integration tests.",
       "Assist in troubleshooting and resolving production issues quickly.",
       "Optimize application for maximum speed and scalability."
-    ],
-
-    IndustryType: "Software Product",
-    Department: "Engineering, IT",
-    KeySkills: ["Java", "Python", "REST APIs", "SQL", "Git", "AWS"]
-
+    ]
   },
   {
     id: "3",
     title: "Digital Marketing Intern",
     company: "Global Connect Media",
     companyId: "GCM001",
+    logo: "",
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Marketing & Advertising"],
+    Department: ["UI/UX Design", "Design"], // Standardized from "UX-UI"
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 2.5,
     reviewNo: 400,
-    duration: "6 months duration",
     salary: "4",
     experience: 0,
     location: "Remote",
-    tags: ["Internship"],
-    posted: "2025/11/15",
     openings: 3,
     applicants: 85,
-    WorkType: "Remote",
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.B.A/ B.M.S", "MBA/PGDM", "B.A", "Any Graduate", "Bachelor Of Science (B.Sc.) In Business Economics"],
+    KeySkills: ["SEO Basics", "Social Media Management", "Content Writing", "Google Analytics", "Canva"],
+
     JobHighlights: [
       "Work from anywhere",
       "Mentorship from industry experts",
@@ -408,31 +486,35 @@ export const Joblist = [
       "Contribute ideas for new marketing strategies and campaigns.",
       "Assist in managing the company's content calendar.",
       "Perform competitive analysis to identify market trends."
-    ],
-
-    IndustryType: "Marketing & Advertising",
-    Department: "UX-UI, Design",
-
-
-    KeySkills: ["SEO Basics", "Social Media Management", "Content Writing", "Google Analytics", "Canva"]
+    ]
   },
   {
     id: "4",
     title: "Senior Financial Analyst",
     company: "Apex Consulting Group",
     companyId: "ACG001",
+    logo: "",
+    posted: "2025/11/19",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Financial Services", "Consulting"],
+    Department: ["Finance", "Accounting"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.0,
     reviewNo: 253,
-    duration: "Permanent",
     salary: "18",
     experience: "5",
     location: "Mumbai",
-    tags: ["Full-Time"],
-    posted: "2025/11/19",
     openings: 2,
     applicants: 25,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["CA", "MBA/PGDM", "M.Com", "B.Com", "Bachelor Of Science (B.Sc.) In Business Economics", "Any Graduate"],
+    KeySkills: ["Financial Modeling", "Valuation", "Budgeting", "SAP/ERP", "Advanced Excel", "GAAP/IFRS"],
+
     JobHighlights: [
       "Leadership opportunity in financial planning",
       "Generous performance bonus",
@@ -447,28 +529,35 @@ export const Joblist = [
       "Prepare monthly/quarterly financial reports for senior management and the board.",
       "Conduct variance analysis between actual results and budget/forecast.",
       "Support the M&A due diligence process as required."
-    ],
-    IndustryType: "Financial Services, Consulting",
-    Department: "Finance, Accounting",
-    KeySkills: ["Financial Modeling", "Valuation", "Budgeting", "SAP/ERP", "Advanced Excel", "GAAP/IFRS"]
+    ]
   },
   {
     id: "5",
     title: "Product Manager (Associate)",
     company: "Ed-Tech Pioneers",
     companyId: "ETP001",
+    logo: "",
+    posted: "2025/10/08",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Ed-Tech", "Internet"],
+    Department: ["Product Management"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.5,
     reviewNo: 158,
-    duration: "Permanent",
     salary: "14",
     experience: "4",
     location: "Pune",
-    tags: ["Full-Time"],
-    posted: "2025/10/08",
     openings: 4,
     applicants: 70,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "B.B.A/ B.M.S", "Any Graduate", "Any Postgraduate"],
+    KeySkills: ["Product Roadmap", "User Stories", "Agile/Scrum", "JIRA", "A/B Testing", "UX/UI Principles"],
+
     JobHighlights: [
       "Work on high-impact educational products",
       "Cross-functional team collaboration",
@@ -483,28 +572,35 @@ export const Joblist = [
       "Work closely with engineering, design, and marketing teams throughout the product lifecycle.",
       "Analyze product performance data to inform future iterations.",
       "Manage the product backlog and participate in Scrum ceremonies."
-    ],
-    IndustryType: "Ed-Tech, Internet",
-    Department: "Product Management",
-    KeySkills: ["Product Roadmap", "User Stories", "Agile/Scrum", "JIRA", "A/B Testing", "UX/UI Principles"]
+    ]
   },
   {
     id: "6",
     title: "Cloud Operations Specialist",
     company: "Digital Forge Systems",
     companyId: "DFS001",
+    logo: Cts,
+    posted: "2025/05/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services", "Cloud Computing"],
+    Department: ["UI/UX Design", "Design"], // Standardized from "UX, UI"
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 3.7,
     reviewNo: 512,
-    duration: "Permanent",
     salary: "9",
     experience: "4",
     location: "Hyderabad",
-    tags: ["Full-Time"],
-    posted: "2025/05/15",
     openings: 6,
     applicants: 65,
-    WorkType: "On-site",
-    logo: Cts,
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "BCA", "MCA", "M.Tech", "Diploma"],
+    KeySkills: ["AWS/Azure", "Kubernetes", "Terraform", "CI/CD", "Linux", "Scripting (Bash/Python)"],
+
     JobHighlights: [
       "Focus on AWS and Azure platforms",
       "24/7 rotational shifts required",
@@ -519,28 +615,35 @@ export const Joblist = [
       "Automate operational tasks and improve deployment processes using CI/CD tools.",
       "Ensure security best practices are followed across all cloud resources.",
       "Participate in on-call rotation for high-priority issues."
-    ],
-    IndustryType: "IT Services, Cloud Computing",
-    Department: "UX, UI, Design",
-    KeySkills: ["AWS/Azure", "Kubernetes", "Terraform", "CI/CD", "Linux", "Scripting (Bash/Python)"]
+    ]
   },
   {
     id: "7",
     title: "Content Writer",
     company: "Marketing Zenith Agency",
     companyId: "MZA001",
+    logo: "",
+    posted: "2025/09/05",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Marketing & Advertising"],
+    Department: ["Content", "Editorial"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.1,
     reviewNo: 248,
-    duration: "Permanent",
     salary: "6",
     experience: "2.5",
     location: "Gurgaon",
-    tags: ["Full-Time"],
-    posted: "2025/09/05",
     openings: 3,
     applicants: 120,
-    WorkType: "Hybrid",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.A", "M.A", "Any Graduate", "Any Postgraduate", "B.Ed"],
+    KeySkills: ["Content Strategy", "SEO Writing", "Grammarly", "WordPress", "Copywriting", "Research Skills"],
+
     JobHighlights: [
       "Portfolio of published work is essential",
       "Experience with B2B tech writing preferred",
@@ -555,30 +658,35 @@ export const Joblist = [
       "Conduct thorough research on industry-related topics and trends.",
       "Ensure all content adheres to brand voice and style guidelines.",
       "Manage and adhere to a strict content production schedule."
-    ],
-
-    IndustryType: "Marketing & Advertising",
-    Department: "Content, Editorial",
-    KeySkills: ["Content Strategy", "SEO Writing", "Grammarly", "WordPress", "Copywriting", "Research Skills"]
-
+    ]
   },
   {
     id: "8",
     title: "Research Associate (Pharmacology)",
     company: "BioGen Pharma Labs",
     companyId: "BPL001",
+    logo: "",
+    posted: "2025/09/19",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Pharmaceuticals", "Biotechnology"],
+    Department: ["IT Services"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 2.9,
     reviewNo: 487,
-    duration: "Permanent",
     salary: "7",
     experience: "5",
     location: "Pune",
-    tags: ["Full-Time"],
-    posted: "2025/09/19",
     openings: 2,
     applicants: 30,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["Medical-MS/MD", "MS/M.Sc (Science)", "B.Sc", "Other Post Graduate", "Any Postgraduate"],
+    KeySkills: ["Pharmacology", "Cell Culture", "ELISA", "Data Analysis", "HPLC", "Laboratory Techniques"],
+
     JobHighlights: [
       "Master's degree in a relevant field required",
       "Experience with in-vivo studies is highly desirable",
@@ -593,29 +701,35 @@ export const Joblist = [
       "Operate and maintain complex laboratory equipment (e.g., HPLC, mass spectrometer).",
       "Ensure compliance with all safety regulations and SOPs.",
       "Collaborate with cross-functional teams including chemistry and toxicology."
-    ],
-    IndustryType: "Pharmaceuticals, Biotechnology",
-    Department: "IT Services",
-    KeySkills: ["Pharmacology", "Cell Culture", "ELISA", "Data Analysis", "HPLC", "Laboratory Techniques"]
-
+    ]
   },
   {
     id: "9",
     title: "Technical Support Engineer L2",
     company: "ConnectPro Telecom",
     companyId: "CPT001",
+    logo: "",
+    posted: "2025/06/24",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Telecommunications", "IT Services"],
+    Department: ["Technical Support", "Customer Service"],
+    WorkType: "On-site",
+    Shift: "Night",
+    duration: "Permanent",
+
     ratings: 2.9,
     reviewNo: 417,
-    duration: "Permanent",
     salary: "4",
     experience: "2",
     location: "Chennai",
-    tags: ["Full-Time"],
-    posted: "2025/06/24",
     openings: 8,
     applicants: 95,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "BCA", "Diploma", "Any Graduate", "B.Sc"],
+    KeySkills: ["Troubleshooting", "Networking (TCP/IP)", "Windows Server", "Ticketing Systems (e.g., Zendesk)", "VOIP", "Customer Service"],
+
     JobHighlights: [
       "Customer-facing role, excellent communication skills a must",
       "Mandatory evening/night shift flexibility",
@@ -630,30 +744,35 @@ export const Joblist = [
       "Create and update technical documentation and knowledge base articles.",
       "Assist in the deployment and configuration of client systems remotely.",
       "Maintain high customer satisfaction scores and adherence to SLAs."
-    ],
-
-    IndustryType: "Telecommunications, IT Services",
-    Department: "Technical Support, Customer Service",
-    KeySkills: ["Troubleshooting", "Networking (TCP/IP)", "Windows Server", "Ticketing Systems (e.g., Zendesk)", "VOIP", "Customer Service"]
-
+    ]
   },
   {
     id: "10",
     title: "Sales Executive (B2C)",
     company: "Future Mobility Autos",
     companyId: "FMA001",
+    logo: "",
+    posted: "2025/05/31",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Automotive", "Retail"],
+    Department: ["Sales", "Business Development"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 687,
-    duration: "Permanent",
     salary: "9",
     experience: "2",
     location: "Delhi",
-    tags: ["Full-Time"],
-    posted: "2025/05/31",
     openings: 15,
     applicants: 180,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "B.B.A/ B.M.S", "B.Com", "Any Graduate", "Diploma"],
+    KeySkills: ["B2C Sales", "Lead Generation", "Negotiation", "CRM Software", "Customer Relationship Management", "Product Knowledge"],
+
     JobHighlights: [
       "Target-driven role with uncapped incentives",
       "Prior experience in automobile sales preferred",
@@ -668,31 +787,35 @@ export const Joblist = [
       "Achieve monthly and quarterly sales targets consistently.",
       "Maintain excellent customer relations post-sale for referrals.",
       "Stay updated on product specifications, features, and competitor offerings."
-    ],
-
-    IndustryType: "Automotive, Retail",
-    Department: "Sales, Business Development",
-
-    KeySkills: ["B2C Sales", "Lead Generation", "Negotiation", "CRM Software", "Customer Relationship Management", "Product Knowledge"]
-
+    ]
   },
   {
     id: "11",
     title: "Machine Learning Intern",
     company: "AI Insights Hub",
     companyId: "AIH001",
+    logo: "",
+    posted: "2025/07/13",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Artificial Intelligence", "Data Science"],
+    Department: ["Data Science", "Research"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 3.8,
     reviewNo: 357,
-    duration: "6 months duration",
     salary: "1.75",
     experience: "0",
     location: "Remote",
-    tags: ["Internship"],
-    posted: "2025/07/13",
     openings: 5,
     applicants: 250,
-    WorkType: "Remote",
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MS/M.Sc (Science)", "MCA", "Any Graduate"],
+    KeySkills: ["Python", "TensorFlow/PyTorch", "Pandas/NumPy", "Scikit-learn", "Statistical Modeling", "Data Visualization"],
+
     JobHighlights: [
       "Opportunity to work on real-world datasets",
       "Mentorship with PhD-level researchers",
@@ -707,31 +830,35 @@ export const Joblist = [
       "Write efficient, well-documented, and production-ready Python code.",
       "Research and summarize academic papers on cutting-edge ML techniques.",
       "Contribute to documentation of model architecture and training process."
-    ],
-
-    IndustryType: "Artificial Intelligence, Data Science",
-    Department: "Data Science, Research",
-
-    KeySkills: ["Python", "TensorFlow/PyTorch", "Pandas/NumPy", "Scikit-learn", "Statistical Modeling", "Data Visualization"]
-
+    ]
   },
   {
     id: "12",
     title: "Civil Site Engineer",
     company: "Construct Mega Projects",
     companyId: "CMP001",
+    logo: "",
+    posted: "2025/08/17",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Construction", "Real Estate"],
+    Department: ["Engineering", "Projects"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 2.8,
     reviewNo: 754,
-    duration: "Permanent",
     salary: "5.5",
     experience: "6",
     location: "Bangalore",
-    tags: ["Full-Time"],
-    posted: "2025/08/17",
     openings: 4,
     applicants: 50,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "Diploma", "M.Tech", "ITI Certification", "Any Graduate"],
+    KeySkills: ["Site Supervision", "Quality Control", "AutoCAD", "Project Management", "Construction Safety", "Budgeting"],
+
     JobHighlights: [
       "B.E/B.Tech in Civil Engineering is mandatory",
       "Experience supervising large commercial projects a must",
@@ -746,31 +873,35 @@ export const Joblist = [
       "Perform quality checks on materials and workmanship.",
       "Ensure strict compliance with safety regulations and environmental guidelines.",
       "Prepare site reports, progress documentation, and material procurement lists."
-    ],
-
-    IndustryType: "Construction, Real Estate",
-    Department: "Engineering, Projects",
-
-    KeySkills: ["Site Supervision", "Quality Control", "AutoCAD", "Project Management", "Construction Safety", "Budgeting"]
-
+    ]
   },
   {
     id: "13",
     title: "HR Recruiter",
     company: "Talent Bridge Solutions",
     companyId: "TBS001",
+    logo: "",
+    posted: "2025/10/11",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Recruitment", "Human Resources"],
+    Department: ["Human Resources", "Talent Acquisition"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.3,
     reviewNo: 485,
-    duration: "Permanent",
     salary: "4.5",
     experience: "1",
     location: "Noida",
-    tags: ["Full-Time"],
-    posted: "2025/10/11",
     openings: 7,
     applicants: 140,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "B.B.A/ B.M.S", "Any Graduate", "Post Graduation Not Required", "B.A"],
+    KeySkills: ["Sourcing", "Applicant Tracking Systems (ATS)", "Interviewing", "Technical Recruitment", "Negotiation", "LinkedIn Recruiter"],
+
     JobHighlights: [
       "Focus on IT and technical hiring",
       "Opportunity for freshers with excellent communication skills",
@@ -785,33 +916,35 @@ export const Joblist = [
       "Negotiate salary and benefits packages and extend offer letters.",
       "Maintain and update candidate information in the Applicant Tracking System (ATS).",
       "Build talent pipelines for future hiring needs."
-    ],
-
-    IndustryType: "Recruitment, Human Resources",
-    Department: "Human Resources, Talent Acquisition",
-
-
-
-    KeySkills: ["Sourcing", "Applicant Tracking Systems (ATS)", "Interviewing", "Technical Recruitment", "Negotiation", "LinkedIn Recruiter"]
-
+    ]
   },
   {
     id: "14",
     title: "Front-End Developer (React)",
     company: "Nexus Web Labs",
     companyId: "NWL001",
+    logo: "",
+    posted: "2025/10/09",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["FinTech", "Software Product"],
+    Department: ["Engineering", "Development"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.5,
     reviewNo: 175,
-    duration: "Permanent",
     salary: "8",
     experience: "5",
     location: "Mumbai",
-    tags: ["Full-Time"],
-    posted: "2025/10/09",
     openings: 5,
     applicants: 90,
-    WorkType: "Hybrid",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "M.Tech", "Any Graduate"],
+    KeySkills: ["ReactJS", "JavaScript (ES6+)", "HTML5/CSS3", "Redux/Context API", "Webpack/Babel", "RESTful APIs"],
+
     JobHighlights: [
       "Strong proficiency in ReactJS and state management required",
       "Modern tech stack environment",
@@ -826,31 +959,35 @@ export const Joblist = [
       "Optimize components for maximum performance across a vast array of web-capable devices and browsers.",
       "Ensure technical feasibility of UI/UX designs.",
       "Integrate front-end logic with server-side APIs (REST/GraphQL)."
-    ],
-
-    IndustryType: "FinTech, Software Product",
-    Department: "Engineering, Development",
-
-    KeySkills: ["ReactJS", "JavaScript (ES6+)", "HTML5/CSS3", "Redux/Context API", "Webpack/Babel", "RESTful APIs"]
-
+    ]
   },
   {
     id: "15",
     title: "Operations Manager",
     company: "Logistics Xpress",
     companyId: "LX001",
+    logo: "",
+    posted: "2025/09/09",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Logistics", "Supply Chain"],
+    Department: ["Operations", "Management"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 4.6,
     reviewNo: 1047,
-    duration: "Permanent",
     salary: "11",
     experience: "7",
     location: "Kolkata",
-    tags: ["Full-Time"],
-    posted: "2025/09/09",
     openings: 2,
     applicants: 35,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "Any Graduate", "B.Tech/B.E.", "Diploma", "B.B.A/ B.M.S"],
+    KeySkills: ["Supply Chain Management", "Warehouse Management", "Inventory Control", "Process Improvement", "Team Leadership", "Logistics Software (WMS)"],
+
     JobHighlights: [
       "Proven track record in supply chain or logistics management required",
       "P&L management experience is a plus",
@@ -865,31 +1002,35 @@ export const Joblist = [
       "Manage the operational budget and look for opportunities for cost reduction.",
       "Lead, mentor, and train a large team of supervisors and ground staff.",
       "Ensure compliance with transportation, safety, and labor regulations."
-    ],
-
-    IndustryType: "Logistics, Supply Chain",
-    Department: "Operations, Management",
-
-    KeySkills: ["Supply Chain Management", "Warehouse Management", "Inventory Control", "Process Improvement", "Team Leadership", "Logistics Software (WMS)"]
-
+    ]
   },
   {
     id: "16",
     title: "Aerospace Stress Analyst",
     company: "AeroDynamics R&D",
     companyId: "ADRD001",
+    logo: "",
+    posted: "2025/08/09",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Aerospace & Defense"],
+    Department: ["Engineering", "R&D"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.7,
     reviewNo: 684,
-    duration: "Permanent",
     salary: "12",
     experience: "5",
     location: "Hyderabad",
-    tags: ["Full-Time"],
-    posted: "2025/08/09",
     openings: 3,
     applicants: 45,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["M.Tech", "B.Tech/B.E.", "MS/M.Sc (Science)", "Ph.D", "Other Post Graduate"],
+    KeySkills: ["FEA", "Nastran/Patran", "Abaqus", "Structural Analysis", "Fatigue & Damage Tolerance", "CAD Software"],
+
     JobHighlights: [
       "Experience with finite element analysis (FEA) software essential",
       "Must have a B.E/M.Tech in Aerospace/Mechanical Engineering",
@@ -904,31 +1045,35 @@ export const Joblist = [
       "Write comprehensive stress analysis reports and present findings to design teams.",
       "Collaborate with design engineers to optimize structures for weight and performance.",
       "Support testing activities and correlate test results with analytical models."
-    ],
-
-    IndustryType: "Aerospace & Defense",
-    Department: "Engineering, R&D",
-
-    KeySkills: ["FEA", "Nastran/Patran", "Abaqus", "Structural Analysis", "Fatigue & Damage Tolerance", "CAD Software"]
-
+    ]
   },
   {
     id: "17",
     title: "Registered Nurse (ICU)",
     company: "MedCare Multi-Specialty Hospital",
     companyId: "MMSH001",
+    logo: "",
+    posted: "2025/06/09",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Healthcare", "Hospital"],
+    Department: ["Nursing", "Medical"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 2.75,
     reviewNo: 514,
-    duration: "Permanent",
-    salary: "₹ 5,00,000 - 8,00,000/year",
+    salary: "5,00,000 - 8,00,000/year",
     experience: "5",
     location: "Kochi",
-    tags: ["Full-Time"],
-    posted: "2025/06/09",
     openings: 12,
     applicants: 60,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Sc", "Diploma", "Medical-MS/MD", "Any Graduate"],
+    KeySkills: ["Critical Care Nursing", "BLS/ACLS", "Medication Administration", "Patient Monitoring", "ICU Procedures", "Emergency Response"],
+
     JobHighlights: [
       "Valid state nursing license (B.Sc Nursing preferred)",
       "Mandatory experience in Intensive Care Unit (ICU)",
@@ -943,31 +1088,35 @@ export const Joblist = [
       "Manage patient ventilation, central lines, and other critical care equipment.",
       "Educate patients and their families about health conditions and treatment plans.",
       "Maintain strict adherence to infection control and patient safety protocols."
-    ],
-
-    IndustryType: "Healthcare, Hospital",
-    Department: "Nursing, Medical",
-
-    KeySkills: ["Critical Care Nursing", "BLS/ACLS", "Medication Administration", "Patient Monitoring", "ICU Procedures", "Emergency Response"]
-
+    ]
   },
   {
     id: "18",
     title: "Financial Planning & Analysis (FP&A) Manager",
     company: "Consumer Goods Titans (CGT)",
     companyId: "CGT001",
+    logo: "",
+    posted: "2025/11/09",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["FMCG", "Consumer Goods"],
+    Department: ["Finance", "Strategy"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.7,
     reviewNo: 718,
-    duration: "Permanent",
     salary: "20",
     experience: "9",
     location: "Mumbai",
-    tags: ["Full-Time", "Leadership"],
-    posted: "2025/11/09",
     openings: 1,
     applicants: 20,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["CA", "MBA/PGDM", "M.Com", "B.Com", "Any Postgraduate"],
+    KeySkills: ["Budgeting & Forecasting", "Financial Modeling", "CA/MBA Finance", "P&L Management", "SAP/Hyperion", "Management Reporting"],
+
     JobHighlights: [
       "Chartered Accountant (CA) or MBA in Finance mandatory",
       "Experience in the FMCG/CPG sector is strongly preferred",
@@ -982,31 +1131,35 @@ export const Joblist = [
       "Prepare and present detailed financial reports and dashboards to the senior management team.",
       "Drive continuous improvement in financial reporting and planning processes.",
       "Manage and develop a team of junior financial analysts."
-    ],
-
-    IndustryType: "FMCG, Consumer Goods",
-    Department: "Finance, Strategy",
-
-    KeySkills: ["Budgeting & Forecasting", "Financial Modeling", "CA/MBA Finance", "P&L Management", "SAP/Hyperion", "Management Reporting"]
-
+    ]
   },
   {
     id: "19",
     title: "Power Plant Maintenance Technician",
     company: "Green Energy Solutions",
     companyId: "PPMT001",
+    logo: "",
+    posted: "2025/07/29",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Energy", "Utilities", "Renewable Power"],
+    Department: ["Maintenance", "Operations"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 2.5,
     reviewNo: 115,
-    duration: "Permanent",
     salary: "5",
     experience: "5",
     location: "Visakhapatnam",
-    tags: ["Full-Time"],
-    posted: "2025/07/29",
     openings: 6,
     applicants: 40,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["Diploma", "ITI Certification", "B.Tech/B.E.", "Any Graduate"],
+    KeySkills: ["Electrical Troubleshooting", "Preventive Maintenance (PM)", "SCADA Systems", "Renewable Energy", "Safety Protocols (LOTO)", "Mechanical Repair"],
+
     JobHighlights: [
       "Diploma/ITI in Electrical/Mechanical required",
       "Experience in solar or thermal power generation is essential",
@@ -1021,31 +1174,35 @@ export const Joblist = [
       "Document all maintenance activities, repairs, and parts used accurately.",
       "Adhere to strict safety standards and operational procedures (LOTO).",
       "Respond promptly to system failures and emergencies."
-    ],
-
-    IndustryType: "Energy, Utilities, Renewable Power",
-    Department: "Maintenance, Operations",
-
-    KeySkills: ["Electrical Troubleshooting", "Preventive Maintenance (PM)", "SCADA Systems", "Renewable Energy", "Safety Protocols (LOTO)", "Mechanical Repair"]
-
+    ]
   },
   {
     id: "20",
     title: "Ethical Hacker / Penetration Tester",
     company: "SecureNet Consulting",
     companyId: "SNC001",
+    logo: "",
+    posted: "2025/06/27",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Cybersecurity", "IT Consulting"],
+    Department: ["Security", "IT"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.7,
     reviewNo: 533,
-    duration: "Permanent",
     salary: "12",
     experience: "3 to 5 years of experience",
     location: "Pune",
-    tags: ["Full-Time"],
-    posted: "2025/06/27",
     openings: 4,
     applicants: 80,
-    WorkType: "On-site",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "M.Tech", "Any Graduate", "B.Sc"],
+    KeySkills: ["Penetration Testing", "Ethical Hacking", "CEH/OSCP", "Burp Suite", "Kali Linux", "Vulnerability Assessment"],
+
     JobHighlights: [
       "Certifications like CEH, OSCP, or equivalent are highly valued",
       "Experience with web application and network penetration testing",
@@ -1060,31 +1217,35 @@ export const Joblist = [
       "Stay current with the latest exploits, attack vectors, and security trends.",
       "Simulate real-world attacks to test organizational defenses (Red Teaming).",
       "Collaborate with development teams to ensure security is built into the SDLC."
-    ],
-
-    IndustryType: "Cybersecurity, IT Consulting",
-    Department: "Security, IT",
-
-    KeySkills: ["Penetration Testing", "Ethical Hacking", "CEH/OSCP", "Burp Suite", "Kali Linux", "Vulnerability Assessment"]
-
+    ]
   },
   {
     id: "21",
     title: "Digital Marketing Executive",
     company: "MarketiQ Labs",
     companyId: "DME001",
+    logo: "",
+    posted: "2025/11/17",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Marketing"],
+    Department: ["Digital Marketing"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.7,
     reviewNo: 486,
-    duration: "Permanent",
     salary: "2.6",
     experience: "1",
     location: "Chennai",
-    tags: ["Full-Time"],
-    posted: "2025/11/17",
     openings: 5,
     applicants: 210,
-    WorkType: "Hybrid",
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.B.A/ B.M.S", "MBA/PGDM", "B.A", "Any Graduate", "B.Com"],
+    KeySkills: ["SEO", "Social Media", "Analytics", "Content Strategy"],
+
     JobHighlights: [
       "Social media campaigns.",
       "SEO & SEM knowledge.",
@@ -1100,28 +1261,35 @@ export const Joblist = [
       "Assist in SEO tasks.",
       "Content planning.",
       "Report marketing performance."
-    ],
-
-    IndustryType: "Marketing",
-    Department: "Digital Marketing",
-    KeySkills: ["SEO", "Social Media", "Analytics", "Content Strategy"]
+    ]
   },
   {
     id: "22",
     title: "DevOps Engineer",
     company: "BuildSphere Tech",
     companyId: "BST001",
+    logo: "",
+    posted: "2025/11/08",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["DevOps"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 533,
-    duration: "Permanent",
     salary: "5.3",
     experience: "4",
     location: "Hyderabad",
-    tags: ["Full-Time"],
-    posted: "2025/11/08",
     openings: 3,
     applicants: 150,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "B.Sc", "Any Graduate"],
+    KeySkills: ["CI/CD", "Linux", "Shell Scripting", "AWS"],
+
     JobHighlights: [
       "CI/CD pipelines.",
       "Automation & scripting.",
@@ -1137,31 +1305,34 @@ export const Joblist = [
       "Cloud monitoring.",
       "System troubleshooting.",
       "Security updates."
-    ],
-
-    IndustryType: "IT Services",
-    Department: "DevOps",
-
-    WorkType: "On-site",
-    KeySkills: ["CI/CD", "Linux", "Shell Scripting", "AWS"]
-
-  },
-  {
+    ]
+  }, {
     id: "23",
     title: "Customer Support Executive",
     company: "HelpDesk Pro",
     companyId: "HDP001",
+    logo: "",
+    posted: "2025/11/20",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Customer Support"],
+    Department: ["Support"],
+    WorkType: "Remote",
+    Shift: "Night",
+    duration: "Permanent",
+
     ratings: 2.5,
     reviewNo: 356,
-    duration: "Permanent",
     salary: "2.0",
     experience: "0",
     location: "Remote",
-    tags: ["Full-Time"],
-    posted: "2025/11/20",
     openings: 10,
     applicants: 350,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["Any Graduate", "Diploma", "B.A", "B.Com", "B.B.A/ B.M.S", "Graduation Not Required"],
+    KeySkills: ["Communication", "Email Support", "Chat Support"],
+
     JobHighlights: [
       "Customer ticket handling.",
       "Chat & email support.",
@@ -1177,31 +1348,35 @@ export const Joblist = [
       "Escalate technical problems.",
       "Document interactions.",
       "Maintain SLAs."
-    ],
-
-    IndustryType: "Customer Support",
-    Department: "Support",
-
-    WorkType: "Remote",
-    KeySkills: ["Communication", "Email Support", "Chat Support"]
-
+    ]
   },
   {
     id: "24",
     title: "Project Manager",
     company: "ProManage Global",
     companyId: "PMG001",
+    logo: "",
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Project Management"],
+    Department: ["Operations"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.05,
     reviewNo: 485,
-    duration: "Permanent",
     salary: "6.5",
     experience: "6",
     location: "Gurgaon",
-    tags: ["Full-Time"],
-    posted: "2025/11/05",
     openings: 1,
     applicants: 60,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "PG Diploma", "Any Postgraduate", "Any Graduate"],
+    KeySkills: ["Project Management", "Scrum", "Leadership"],
+
     JobHighlights: [
       "Manage cross-functional teams.",
       "Client communication.",
@@ -1217,30 +1392,35 @@ export const Joblist = [
       "Allocate tasks.",
       "Client reporting.",
       "Risk management."
-    ],
-
-    IndustryType: "Project Management",
-    Department: "Operations",
-    WorkType: "On-site",
-    KeySkills: ["Project Management", "Scrum", "Leadership"]
-
+    ]
   },
   {
     id: "25",
     title: "QA Tester",
     company: "TestFlow Systems",
     companyId: "TFS001",
+    logo: "",
+    posted: "2025/11/18",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Software Testing"],
+    Department: ["QA"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 3.9,
     reviewNo: 286,
-    duration: "6 months duration",
     salary: "3.0",
     experience: "1",
     location: "Pune",
-    tags: ["Internship"],
-    posted: "2025/11/18",
     openings: 3,
     applicants: 190,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "B.Sc", "Any Graduate"],
+    KeySkills: ["Manual Testing", "Selenium", "JIRA"],
+
     JobHighlights: [
       "Manual & automation testing.",
       "Report bugs.",
@@ -1256,30 +1436,35 @@ export const Joblist = [
       "Log defects.",
       "Coordinate with dev teams.",
       "Test automation scripts."
-    ],
-
-    IndustryType: "Software Testing",
-    Department: "QA",
-    WorkType: "On-site",
-    KeySkills: ["Manual Testing", "Selenium", "JIRA"]
-
+    ]
   },
   {
     id: "26",
     title: "Finance Executive",
     company: "BrightBooks Finance",
     companyId: "BBF001",
+    logo: "",
+    posted: "2025/11/07",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Finance"],
+    Department: ["Accounts"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 659,
-    duration: "Permanent",
     salary: "3.1",
     experience: "2",
     location: "Mumbai",
-    tags: ["Full-Time"],
-    posted: "2025/11/07",
     openings: 4,
     applicants: 175,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Com", "M.Com", "MBA/PGDM", "CA", "Bachelor Of Science (B.Sc.) In Business Economics"],
+    KeySkills: ["Tally", "Accounting", "Excel"],
+
     JobHighlights: [
       "Accounting and billing.",
       "Financial reports.",
@@ -1295,31 +1480,35 @@ export const Joblist = [
       "Assist during audits.",
       "Handle vendor payments.",
       "Prepare monthly statements."
-    ],
-
-    IndustryType: "Finance",
-    Department: "Accounts",
-
-    WorkType: "On-site",
-    KeySkills: ["Tally", "Accounting", "Excel"]
-
+    ]
   },
   {
     id: "27",
     title: "Sales Executive",
     company: "GrowMore Pvt Ltd",
     companyId: "GPL001",
+    logo: "",
+    posted: "2025/11/10",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Sales"],
+    Department: ["Business Development"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "12 months duration",
+
     ratings: 3.9,
     reviewNo: 278,
-    duration: "12 months duration",
     salary: "2.7",
     experience: "0",
     location: "Chennai",
-    tags: ["Internship"],
-    posted: "2025/11/10",
     openings: 8,
     applicants: 230,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["Any Graduate", "B.B.A/ B.M.S", "MBA/PGDM", "Diploma", "B.A"],
+    KeySkills: ["Sales", "Marketing", "Communication"],
+
     JobHighlights: [
       "Lead generation.",
       "Client meetings.",
@@ -1335,31 +1524,35 @@ export const Joblist = [
       "Prepare sales reports.",
       "Support field sales.",
       "Maintain client relations."
-    ],
-
-    IndustryType: "Sales",
-    Department: "Business Development",
-
-    WorkType: "On-site",
-    KeySkills: ["Sales", "Marketing", "Communication"]
-
+    ]
   },
   {
     id: "28",
     title: "Social Media Manager",
     company: "TrendHive Digital",
     companyId: "THD001",
+    logo: "",
+    posted: "2025/11/06",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Marketing"],
+    Department: ["Social Media"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.3,
     reviewNo: 533,
-    duration: "Permanent",
     salary: "4.9",
     experience: "3",
     location: "Bangalore",
-    tags: ["Full-Time"],
-    posted: "2025/11/06",
     openings: 3,
     applicants: 160,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.A", "B.B.A/ B.M.S", "MBA/PGDM", "Any Graduate", "Diploma"],
+    KeySkills: ["Social Media", "Content Strategy", "Analytics"],
+
     JobHighlights: [
       "Manage brand social media.",
       "Content scheduling.",
@@ -1375,31 +1568,35 @@ export const Joblist = [
       "Analyze engagement.",
       "Coordinate with designers.",
       "Support paid ads."
-    ],
-
-    IndustryType: "Marketing",
-    Department: "Social Media",
-
-    WorkType: "Hybrid",
-    KeySkills: ["Social Media", "Content Strategy", "Analytics"]
-
+    ]
   },
   {
     id: "29",
     title: "Network Engineer",
     company: "NetSecure IT",
     companyId: "NSI001",
+    logo: "",
+    posted: "2025/11/09",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["IT Networking"],
+    Department: ["Network"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 586,
-    duration: "Permanent",
     salary: "4.2",
     experience: "4",
     location: "Hyderabad",
-    tags: ["Full-Time"],
-    posted: "2025/11/09",
     openings: 2,
     applicants: 80,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "Diploma", "BCA", "B.Sc", "Any Graduate"],
+    KeySkills: ["Networking", "Cisco", "Firewall", "Troubleshooting"],
+
     JobHighlights: [
       "Maintain network infrastructure.",
       "Security monitoring.",
@@ -1415,31 +1612,35 @@ export const Joblist = [
       "Manage firewalls.",
       "Troubleshoot outages.",
       "Document configurations."
-    ],
-
-    IndustryType: "IT Networking",
-    Department: "Network",
-
-    WorkType: "On-site",
-    KeySkills: ["Networking", "Cisco", "Firewall", "Troubleshooting"]
-
+    ]
   },
   {
     id: "30",
     title: "AI Research Intern",
     company: "NeuroMind AI",
     companyId: "NMAI001",
+    logo: "",
+    posted: "2025/11/21",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Artificial Intelligence"],
+    Department: ["Research"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Internship",
+
     ratings: 4.7,
     reviewNo: 685,
-    duration: "Internship",
     salary: "1.5",
     experience: "0",
     location: "Remote",
-    tags: ["Internship"],
-    posted: "2025/11/21",
     openings: 6,
     applicants: 260,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["M.Tech", "MS/M.Sc (Science)", "B.Tech/B.E.", "MCA", "Any Postgraduate"],
+    KeySkills: ["Python", "Machine Learning", "Deep Learning", "Research"],
+
     JobHighlights: [
       "Work with ML models.",
       "Research and analysis.",
@@ -1455,31 +1656,35 @@ export const Joblist = [
       "Optimize algorithms.",
       "Document findings.",
       "Support ongoing projects."
-    ],
-
-    IndustryType: "Artificial Intelligence",
-    Department: "Research",
-
-    WorkType: "Remote",
-    KeySkills: ["Python", "Machine Learning", "Deep Learning", "Research"]
-
+    ]
   },
   {
     id: "31",
     title: "Business Intelligence (BI) Developer",
     company: "Metrics Fusion Ltd.",
     companyId: "MFL001",
+    logo: "",
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Retail Tech", "Business Intelligence"],
+    Department: ["Data Analytics", "Business Intelligence"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.5,
     reviewNo: 289,
-    duration: "Permanent",
     salary: "2.5",
     experience: "1",
     location: "Mumbai",
-    tags: ["Full-Time"],
-    posted: "2025/11/05",
     openings: 2,
     applicants: 85,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "M.Sc (Science)", "Any Graduate"],
+    KeySkills: ["SQL (Advanced)", "Tableau/Power BI", "ETL/ELT", "Data Warehousing", "Data Modeling", "Business Requirements Gathering"],
+
     JobHighlights: [
       "Focus on ETL processes and data warehousing.",
       "Primary tool focus on Tableau and advanced SQL.",
@@ -1495,31 +1700,35 @@ export const Joblist = [
       "Manage data extraction, transformation, and loading (ETL) workflows.",
       "Conduct data profiling to identify anomalies and ensure data quality.",
       "Document data dictionaries, models, and BI solution architectures."
-    ],
-
-    IndustryType: "Retail Tech, Business Intelligence",
-    Department: "Data Analytics, Business Intelligence",
-
-    WorkType: "Hybrid",
-    KeySkills: ["SQL (Advanced)", "Tableau/Power BI", "ETL/ELT", "Data Warehousing", "Data Modeling", "Business Requirements Gathering"]
-
+    ]
   },
   {
     id: "32",
     title: "Junior Data Scientist",
     company: "Predictive Innovations",
     companyId: "PI001",
+    logo: "",
+    posted: "2025/11/07",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["AI/ML", "Consulting", "Technology"],
+    Department: ["Data Science", "Research"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 2.5,
     reviewNo: 485,
-    duration: "Permanent",
     salary: "4.5",
     experience: "1",
     location: "Chennai",
-    tags: ["Full-Time"],
-    posted: "2025/11/07",
     openings: 1,
     applicants: 150,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MS/M.Sc (Science)", "M.Tech", "B.Tech/B.E.", "MCA", "Any Postgraduate"],
+    KeySkills: ["Python (Scikit-learn)", "Machine Learning", "Statistics", "Data Modeling", "SQL", "Model Evaluation"],
+
     JobHighlights: [
       "Hands-on experience with productionizing small machine learning models.",
       "Work on A/B testing and statistical significance.",
@@ -1535,31 +1744,35 @@ export const Joblist = [
       "Perform rigorous validation and statistical analysis of experimental results.",
       "Use Python (Scikit-learn, TensorFlow/PyTorch) for model implementation.",
       "Collaborate with engineering teams for model deployment."
-    ],
-
-    IndustryType: "AI/ML, Consulting, Technology",
-    Department: "Data Science, Research",
-
-    WorkType: "Remote",
-    KeySkills: ["Python (Scikit-learn)", "Machine Learning", "Statistics", "Data Modeling", "SQL", "Model Evaluation"]
-
+    ]
   },
   {
     id: "33",
     title: "Product Analyst",
     company: "Nexus Growth Platform",
     companyId: "NGP001",
+    logo: "",
+    posted: "2025/11/09",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["SaaS", "Product Development"],
+    Department: ["Product Analytics", "Business Intelligence"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.4,
     reviewNo: 786,
-    duration: "Permanent",
     salary: "5",
     experience: "2",
     location: "Bangalore",
-    tags: ["Internship"],
-    posted: "2025/11/09",
     openings: 3,
     applicants: 65,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "MBA/PGDM", "B.Sc", "Any Graduate", "M.Sc (Science)"],
+    KeySkills: ["SQL", "A/B Testing", "Product Metrics (KPIs)", "Google Analytics/Mixpanel", "Data Visualization", "Communication"],
+
     JobHighlights: [
       "Directly influence product roadmap and feature prioritization.",
       "Focus on user behavior, conversion funnels, and retention metrics.",
@@ -1575,31 +1788,35 @@ export const Joblist = [
       "Write advanced SQL queries to extract behavioral data from event databases.",
       "Create and maintain product performance dashboards using Looker/Tableau.",
       "Present findings and strategic recommendations to the product management team."
-    ],
-
-    IndustryType: "SaaS, Product Development",
-    Department: "Product Analytics, Business Intelligence",
-
-    WorkType: "Hybrid",
-    KeySkills: ["SQL", "A/B Testing", "Product Metrics (KPIs)", "Google Analytics/Mixpanel", "Data Visualization", "Communication"]
-
+    ]
   },
   {
     id: "34",
     title: "Marketing Data Analyst",
     company: "Digital Reach Agency",
     companyId: "DIA001",
+    logo: "",
+    posted: "2025/11/11",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Marketing", "Advertising", "Analytics"],
+    Department: ["Marketing Analytics", "Performance"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 2.7,
     reviewNo: 685,
-    duration: "Permanent",
     salary: "7",
     experience: "1",
     location: "Chennai",
-    tags: ["Internship"],
-    posted: "2025/11/11",
     openings: 2,
     applicants: 95,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["MBA/PGDM", "B.B.A/ B.M.S", "Any Graduate", "B.Com", "M.Sc (Science)"],
+    KeySkills: ["Marketing KPIs (CPA, ROI)", "Excel (Advanced)", "SQL (Basic)", "Google Analytics/Ads", "Data Storytelling", "Statistics"],
+
     JobHighlights: [
       "Analyze performance across various marketing channels (SEM, Social, Email).",
       "Focus on ROI, Cost Per Acquisition (CPA), and Customer Lifetime Value (CLV).",
@@ -1615,31 +1832,35 @@ export const Joblist = [
       "Identify opportunities to reduce CPA and improve conversion rates.",
       "Build dashboards focused on budget pacing and channel performance.",
       "Utilize Excel and basic statistical methods for variance analysis."
-    ],
-
-    IndustryType: "Marketing, Advertising, Analytics",
-    Department: "Marketing Analytics, Performance",
-
-    WorkType: "Remote",
-    KeySkills: ["Marketing KPIs (CPA, ROI)", "Excel (Advanced)", "SQL (Basic)", "Google Analytics/Ads", "Data Storytelling", "Statistics"]
-
+    ]
   },
   {
     id: "35",
     title: "Healthcare Analytics Specialist",
     company: "HealthData Insights",
     companyId: "HDI001",
+    logo: "",
+    posted: "2025/11/12",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Healthcare", "Pharma", "Consulting"],
+    Department: ["Clinical Analytics", "Statistical Analysis"],
+    WorkType: "Hybrid",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 4.5,
     reviewNo: 259,
-    duration: "Permanent",
     salary: "6",
     experience: "3",
     location: "Chennai",
-    tags: ["Full-Time"],
-    posted: "2025/11/12",
     openings: 1,
     applicants: 40,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["Medical-MS/MD", "MS/M.Sc (Science)", "B.Sc", "Other Post Graduate", "Any Postgraduate"],
+    KeySkills: ["SQL", "SAS/R", "Healthcare Data (EHR/Claims)", "Statistical Modeling", "Data Governance", "Domain Knowledge"],
+
     JobHighlights: [
       "Work with patient flow, clinical outcomes, and claims data.",
       "High demand for domain knowledge in healthcare/pharma.",
@@ -1655,31 +1876,35 @@ export const Joblist = [
       "Build predictive models for hospital readmission rates or disease progression.",
       "Use SQL and specialized statistical software (SAS/R) for complex data manipulation.",
       "Create clear, auditable reports adhering to industry regulatory standards."
-    ],
-
-    IndustryType: "Healthcare, Pharma, Consulting",
-    Department: "Clinical Analytics, Statistical Analysis",
-
-    WorkType: "Hybrid",
-    KeySkills: ["SQL", "SAS/R", "Healthcare Data (EHR/Claims)", "Statistical Modeling", "Data Governance", "Domain Knowledge"]
-
+    ]
   },
   {
     id: "36",
     title: "Digital Marketing Manager (Performance Focus)",
     company: "Growth Accelerate Co.",
     companyId: "GAC001",
+    logo: "",
+    posted: "2025/11/06",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["FinTech", "Digital Marketing"],
+    Department: ["Marketing", "Performance"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 2.7,
     reviewNo: 354,
-    duration: "Permanent",
     salary: "4.2",
     experience: "3",
-    location: "Rajasthan)",
-    tags: ["Internship"],
-    posted: "2025/11/06",
+    location: "Rajasthan",
     openings: 1,
     applicants: 70,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["MBA/PGDM", "B.B.A/ B.M.S", "Any Graduate", "Diploma", "B.Com"],
+    KeySkills: ["SEO/SEM", "Google Ads/Analytics", "Paid Social (Meta/LinkedIn)", "CPA/ROAS Optimization", "A/B Testing", "Budget Management"],
+
     JobHighlights: [
       "Manage a seven-figure annual budget across SEM, SEO, and Paid Social.",
       "Drive measurable results focusing on CPA and ROAS optimization.",
@@ -1695,31 +1920,35 @@ export const Joblist = [
       "Analyze campaign performance data (CPA, CTR, Conversion Rate) and generate insights.",
       "Manage landing page optimization and A/B testing efforts for improved conversion.",
       "Monitor market trends and competitor activities to maintain a competitive edge."
-    ],
-
-    IndustryType: "FinTech, Digital Marketing",
-    Department: "Marketing, Performance",
-
-    WorkType: "Remote",
-    KeySkills: ["SEO/SEM", "Google Ads/Analytics", "Paid Social (Meta/LinkedIn)", "CPA/ROAS Optimization", "A/B Testing", "Budget Management"]
-
+    ]
   },
   {
     id: "37",
     title: "Product Marketing Manager (B2B SaaS)",
     company: "Enterprise Flow Solutions",
     companyId: "EFS001",
+    logo: "",
+    posted: "2025/11/13",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["SaaS", "Enterprise Software"],
+    Department: ["Product Marketing"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.65,
     reviewNo: 258,
-    duration: "Permanent",
     salary: "3.25",
     experience: "5",
     location: "Pune",
-    tags: ["Full-Time"],
-    posted: "2025/11/13",
     openings: 2,
     applicants: 55,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "Any Postgraduate", "Any Graduate", "Bachelor Of Science (B.Sc.) In Business Economics"],
+    KeySkills: ["Go-to-Market (GTM)", "Messaging/Positioning", "Sales Enablement", "Market Research", "B2B Marketing", "Competitive Analysis"],
+
     JobHighlights: [
       "Lead go-to-market (GTM) strategy for new enterprise features.",
       "Develop compelling messaging, positioning, and sales enablement materials.",
@@ -1735,31 +1964,35 @@ export const Joblist = [
       "Own the internal communication and training for Sales and Customer Success teams.",
       "Develop and track metrics related to product launches and feature adoption.",
       "Maintain a deep understanding of competitor products and market trends."
-    ],
-
-    IndustryType: "SaaS, Enterprise Software",
-    Department: "Product Marketing",
-
-    WorkType: "Hybrid",
-    KeySkills: ["Go-to-Market (GTM)", "Messaging/Positioning", "Sales Enablement", "Market Research", "B2B Marketing", "Competitive Analysis"]
-
+    ]
   },
   {
     id: "38",
     title: "Content Marketing Manager",
     company: "Insightful Media Group",
     companyId: "IMG001",
+    logo: "",
+    posted: "2025/11/10",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Digital Media", "Consulting"],
+    Department: ["Marketing", "Content"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.5,
     reviewNo: 485,
-    duration: "Permanent",
     salary: "5.5",
     experience: "3",
     location: "Coimbatore",
-    tags: ["Full-Time"],
-    posted: "2025/11/10",
     openings: 1,
     applicants: 90,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.A", "M.A", "Any Graduate", "Diploma", "B.Ed"],
+    KeySkills: ["Content Strategy", "SEO (Advanced)", "Editorial Management", "Content Creation", "Lead Generation", "Analytics (Google Analytics)"],
+
     JobHighlights: [
       "Develop and manage a comprehensive content strategy for organic growth.",
       "Focus on driving traffic and MQLs (Marketing Qualified Leads) through content.",
@@ -1775,31 +2008,35 @@ export const Joblist = [
       "Ensure all content is optimized for SEO and audience engagement.",
       "Measure content performance using metrics like organic traffic, time on page, and conversions.",
       "Collaborate with the sales team to produce relevant bottom-of-funnel content."
-    ],
-    Key_Details: {
-      IndustryType: "Digital Media, Consulting",
-      Department: "Marketing, Content",
-      "Job_Type": "Full-Time",
-      WorkType: "Remote",
-      KeySkills: ["Content Strategy", "SEO (Advanced)", "Editorial Management", "Content Creation", "Lead Generation", "Analytics (Google Analytics)"]
-    }
+    ]
   },
   {
     id: "39",
     title: "CRM & Email Marketing Manager",
     company: "Customer Lifecycle Hub",
     companyId: "CLH001",
+    logo: "",
+    posted: "2025/11/20",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Subscription Service", "MarTech"],
+    Department: ["Marketing", "CRM/Retention"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 1.5,
     reviewNo: 198,
-    duration: "Permanent",
     salary: "7.5",
     experience: "4",
     location: "Chennai",
-    tags: ["Internship"],
-    posted: "2025/11/20",
     openings: 1,
     applicants: 45,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["MBA/PGDM", "B.B.A/ B.M.S", "Any Graduate", "Diploma", "B.Com"],
+    KeySkills: ["CRM (Salesforce/HubSpot)", "Email Marketing", "Marketing Automation", "Customer Segmentation", "A/B Testing", "HTML/CSS for Email"],
+
     JobHighlights: [
       "Manage segmentation, personalization, and automation across customer lifecycle.",
       "Expertise in major CRM/Marketing Automation platforms (e.g., Salesforce, HubSpot).",
@@ -1815,31 +2052,35 @@ export const Joblist = [
       "Monitor and optimize key email metrics (Open Rate, CTR, Unsubscribe Rate, Deliverability).",
       "Ensure all communication is compliant with GDPR/CAN-SPAM regulations.",
       "Work with the design team to ensure email templates are responsive and engaging."
-    ],
-    Key_Details: {
-      IndustryType: "Subscription Service, MarTech",
-      Department: "Marketing, CRM/Retention",
-      "Job_Type": "Internship",
-      WorkType: "Hybrid",
-      KeySkills: ["CRM (Salesforce/HubSpot)", "Email Marketing", "Marketing Automation", "Customer Segmentation", "A/B Testing", "HTML/CSS for Email"]
-    }
+    ]
   },
   {
     id: "40",
     title: "Field Marketing Manager (Events & Partnerships)",
     company: "Regional Connect Tech",
     companyId: "RCT001",
+    logo: "",
+    posted: "2025/11/03",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["IT Services", "Regional Sales"],
+    Department: ["Field Marketing"],
+    WorkType: "Onsite",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 2.95,
     reviewNo: 85,
-    duration: "Permanent",
     salary: "6.5",
     experience: "5",
     location: "Delhi",
-    tags: ["Full-Time"],
-    posted: "2025/11/03",
     openings: 1,
     applicants: 30,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "Any Graduate", "Diploma", "B.Com", "B.B.A/ B.M.S"],
+    KeySkills: ["Event Management", "Lead Generation", "Sales Alignment", "Partnership Marketing", "Budget Tracking", "Regional Strategy"],
+
     JobHighlights: [
       "Plan and execute regional field marketing events, trade shows, and webinars.",
       "Directly support the regional sales team with targeted lead generation.",
@@ -1855,31 +2096,35 @@ export const Joblist = [
       "Generate qualified leads and pipeline contribution through regional activities.",
       "Create localized marketing collateral and presentations.",
       "Report on the ROI of all field marketing spend and activities."
-    ],
-
-    IndustryType: "IT Services, Regional Sales",
-    Department: "Field Marketing",
-
-    WorkType: "Onsite",
-    KeySkills: ["Event Management", "Lead Generation", "Sales Alignment", "Partnership Marketing", "Budget Tracking", "Regional Strategy"]
-
+    ]
   },
   {
     id: "41",
     title: "Senior Backend Software Engineer (Go/Microservices)",
     company: "Nexus Scale",
     companyId: "NXS001",
+    logo: "",
+    posted: "2025/11/17",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Software Development", "Cloud Computing"],
+    Department: ["Engineering", "Platform"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.25,
     reviewNo: 653,
-    duration: "Permanent",
     salary: "2.75",
     experience: "1",
     location: "Bangalore",
-    tags: ["Internship"],
-    posted: "2025/11/17",
     openings: 2,
     applicants: 45,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "MS/M.Sc (Science)", "Any Graduate"],
+    KeySkills: ["Go (Golang)", "Microservices", "REST/gRPC", "Kubernetes/Docker", "AWS/GCP/Azure", "System Design", "Databases (SQL/NoSQL)"],
+
     JobHighlights: [
       "Lead development on high-throughput, low-latency microservices.",
       "Mentor junior and mid-level engineers in coding best practices.",
@@ -1895,31 +2140,35 @@ export const Joblist = [
       "Collaborate with DevOps to manage CI/CD pipelines and infrastructure as code (Terraform).",
       "Troubleshoot complex production issues across distributed systems.",
       "Drive system design discussions and documentation (e.g., ADRs)."
-    ],
-
-    IndustryType: "Software Development, Cloud Computing",
-    Department: "Engineering, Platform",
-
-    WorkType: "Hybrid",
-    KeySkills: ["Go (Golang)", "Microservices", "REST/gRPC", "Kubernetes/Docker", "AWS/GCP/Azure", "System Design", "Databases (SQL/NoSQL)"]
-
+    ]
   },
   {
     id: "42",
     title: "Senior Frontend Developer (React/TypeScript)",
     company: "EvoUI Solutions",
     companyId: "EUIS001",
+    logo: "",
+    posted: "2025/11/19",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["FinTech", "Software Development"],
+    Department: ["Engineering", "Frontend"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 1.75,
     reviewNo: 624,
-    duration: "Permanent",
     salary: "3.45",
     experience: "2",
     location: "Salem",
-    tags: ["Full-Time"],
-    posted: "2025/11/19",
     openings: 3,
     applicants: 78,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "Any Graduate", "M.Tech"],
+    KeySkills: ["React.js", "TypeScript", "JavaScript (ES6+)", "State Management (Redux/Zustand)", "HTML/CSS/SASS", "Web Performance", "Testing"],
+
     JobHighlights: [
       "Own the end-to-end development of customer-facing applications.",
       "Work closely with product designers to implement pixel-perfect UIs.",
@@ -1935,31 +2184,34 @@ export const Joblist = [
       "Ensure comprehensive unit and integration test coverage (Jest, Testing Library).",
       "Maintain and evolve the internal component library (Storybook).",
       "Participate in agile ceremonies and provide accurate estimates for feature development."
-    ],
-
-    IndustryType: "FinTech, Software Development",
-    Department: "Engineering, Frontend",
-
-    WorkType: "Remote",
-    KeySkills: ["React.js", "TypeScript", "JavaScript (ES6+)", "State Management (Redux/Zustand)", "HTML/CSS/SASS", "Web Performance", "Testing"]
-
+    ]
   },
   {
     id: "43",
     title: "Staff Software Engineer, Data Infrastructure",
     company: "Global DataFlow",
     companyId: "GDF001",
+    logo: "",
+    posted: "2025/11/06",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Data Infrastructure", "Big Data"],
+    Department: ["Data Engineering", "Infrastructure"],
+    WorkType: "Hybrid/Remote Flex",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 1.5,
     reviewNo: 495,
-    duration: "Permanent",
     salary: "5,60",
     experience: "3",
     location: "Pune",
-    tags: ["Internship"],
-    posted: "2025/11/06",
     openings: 1,
     applicants: 22,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["M.Tech", "B.Tech/B.E.", "MS/M.Sc (Science)", "MCA", "Any Graduate"],
+    KeySkills: ["Apache Spark", "Kafka", "Distributed Systems", "Scala/Python", "Cloud Data Warehouses", "System Architecture", "Hadoop Ecosystem"],
 
     JobHighlights: [
       "Technical leadership role shaping the future of our data platform.",
@@ -1976,31 +2228,35 @@ export const Joblist = [
       "Optimize Spark/Hadoop jobs for performance and resource utilization.",
       "Evaluate and integrate new big data technologies into the existing ecosystem.",
       "Mentor and coach multiple senior and principal engineers."
-    ],
-
-    IndustryType: "Data Infrastructure, Big Data",
-    Department: "Data Engineering, Infrastructure",
-
-    WorkType: "Hybrid/Remote Flex",
-    KeySkills: ["Apache Spark", "Kafka", "Distributed Systems", "Scala/Python", "Cloud Data Warehouses", "System Architecture", "Hadoop Ecosystem"]
-
+    ]
   },
   {
     id: "44",
     title: "Senior iOS Developer (Native Swift)",
     company: "Mobile Innovate Co.",
     companyId: "MIC001",
+    logo: "",
+    posted: "2025/11/14",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Mobile App Development", "Consumer Tech"],
+    Department: ["Engineering", "Mobile"],
+    WorkType: "Onsite/Flexible",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.85,
     reviewNo: 25,
-    duration: "Permanent",
     salary: "6.10",
     experience: "5",
     location: "Mumbai",
-    tags: ["Internship"],
-    posted: "2025/11/14",
     openings: 2,
     applicants: 55,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "M.Tech", "Any Graduate"],
+    KeySkills: ["Swift", "iOS SDK", "SwiftUI/UIKit", "Combine/RxSwift", "Unit Testing", "APIs/Networking", "Clean Architecture"],
+
     JobHighlights: [
       "Develop features for a top-rated, multi-million user mobile application.",
       "Expertise in modern iOS frameworks (SwiftUI, Combine).",
@@ -2016,31 +2272,35 @@ export const Joblist = [
       "Collaborate with API teams to define optimal mobile-backend communication.",
       "Drive architectural decisions (MVVM/VIPER/Clean Architecture) for new modules.",
       "Manage app store submissions and continuous integration (CI) workflows."
-    ],
-
-    IndustryType: "Mobile App Development, Consumer Tech",
-    Department: "Engineering, Mobile",
-
-    WorkType: "Onsite/Flexible",
-    KeySkills: ["Swift", "iOS SDK", "SwiftUI/UIKit", "Combine/RxSwift", "Unit Testing", "APIs/Networking", "Clean Architecture"]
-
+    ]
   },
   {
     id: "45",
     title: "Senior DevOps/SRE Engineer",
     company: "Cloud Reliability Hub",
     companyId: "CRH001",
+    logo: "",
+    posted: "2025/11/17",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Cloud Services", "Site Reliability Engineering"],
+    Department: ["DevOps", "SRE", "Infrastructure"],
+    WorkType: "Onsite",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 4.15,
     reviewNo: 568,
-    duration: "Permanent",
     salary: "4.70",
     experience: "4",
     location: "Hyderabad",
-    tags: ["Internship"],
-    posted: "2025/11/17",
     openings: 4,
     applicants: 60,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "B.Sc", "Any Graduate"],
+    KeySkills: ["AWS/GCP/Azure", "Kubernetes", "Terraform/Ansible", "CI/CD (Jenkins/GitLab)", "Prometheus/Grafana", "Linux", "Networking"],
+
     JobHighlights: [
       "Manage and automate infrastructure for a platform serving millions of users.",
       "Focus on high availability, disaster recovery, and latency reduction.",
@@ -2056,31 +2316,34 @@ export const Joblist = [
       "Develop and implement robust monitoring, logging, and alerting systems (*Prometheus, ELK*).",
       "Automate repetitive tasks and reduce manual toil across the engineering organization.",
       "Perform periodic chaos engineering tests and participate in incident response."
-    ],
-
-    IndustryType: "Cloud Services, Site Reliability Engineering",
-    Department: "DevOps, SRE, Infrastructure",
-
-    WorkType: "Onsite",
-    KeySkills: ["AWS/GCP/Azure", "Kubernetes", "Terraform/Ansible", "CI/CD (Jenkins/GitLab)", "Prometheus/Grafana", "Linux", "Networking"]
-
+    ]
   },
   {
     id: "46",
     title: "Senior Product Designer (UX/UI)",
     company: "Synergy Labs",
     companyId: "SPD001",
+    logo: "",
+    posted: "2025/11/19",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["SaaS", "Enterprise Software"],
+    Department: ["Product Design", "UI/UX Design"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.75,
     reviewNo: 698,
-    duration: "Permanent",
     salary: "5.50",
     experience: "4",
     location: "Bangalore",
-    tags: ["Full-Time"],
-    posted: "2025/11/19",
     openings: 2,
     applicants: 40,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["M.Des", "B.Des", "B.Tech/B.E.", "Diploma", "Any Graduate"],
+    KeySkills: ["Figma/Sketch", "User Research", "Prototyping", "Design Systems", "UX Writing", "Wireframing", "Interaction Design"],
 
     JobHighlights: [
       "Lead end-to-end design for a complex B2B platform.",
@@ -2097,31 +2360,35 @@ export const Joblist = [
       "Collaborate closely with product managers and engineers throughout the agile development cycle.",
       "Develop and maintain the internal design system for consistency and scalability.",
       "Present design concepts and articulate design rationale to stakeholders."
-    ],
-
-    IndustryType: "SaaS, Enterprise Software",
-    Department: "Product Design, UX/UI",
-
-    WorkType: "Hybrid",
-    KeySkills: ["Figma/Sketch", "User Research", "Prototyping", "Design Systems", "UX Writing", "Wireframing", "Interaction Design"]
-
+    ]
   },
   {
     id: "47",
     title: "UI Designer & Visual Specialist",
     company: "Pixel Perfect Studio",
     companyId: "PPS001",
+    logo: "",
+    posted: "2025/11/21",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Consumer Tech", "Entertainment"],
+    Department: ["Design", "UI/Visual"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.15,
     reviewNo: 258,
-    duration: "Permanent",
     salary: "7.20",
     experience: "6",
     location: "Delhi",
-    tags: ["Internship"],
-    posted: "2025/11/21",
     openings: 3,
     applicants: 80,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.A", "BFA", "Diploma", "B.Des", "Any Graduate"],
+    KeySkills: ["UI Design", "Visual Hierarchy", "Typography", "Adobe Creative Suite/Figma", "Design QA", "Accessibility Standards", "Branding"],
+
     JobHighlights: [
       "Focus primarily on the visual fidelity and brand consistency of the product.",
       "Create high-fidelity mockups, illustrations, and style guides.",
@@ -2137,31 +2404,34 @@ export const Joblist = [
       "Collaborate with UX designers to ensure visual design supports usability principles.",
       "Iterate designs based on feedback from user testing and data analytics.",
       "Prepare and hand off assets to engineering teams via tools like Zeplin or Figma."
-    ],
-
-    IndustryType: "Consumer Tech, Entertainment",
-    Department: "Design, UI/Visual",
-
-    WorkType: "Remote",
-    KeySkills: ["UI Design", "Visual Hierarchy", "Typography", "Adobe Creative Suite/Figma", "Design QA", "Accessibility Standards", "Branding"]
-
+    ]
   },
   {
     id: "48",
     title: "UX Researcher",
     company: "User Insights Co.",
     companyId: "UIC001",
+    logo: "",
+    posted: "2025/11/16",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Research", "Consulting", "Technology"],
+    Department: ["UX Research"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 2.25,
     reviewNo: 1865,
-    duration: "Permanent",
     salary: "6.20",
     experience: "4",
     location: "Mumbai",
-    tags: ["Full-Time"],
-    posted: "2025/11/16",
     openings: 1,
     applicants: 35,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MS/M.Sc (Science)", "M.A", "B.Sc", "Any Graduate", "M.Des"],
+    KeySkills: ["Usability Testing", "Qualitative/Quantitative Research", "Survey Design", "Persona Development", "Journey Mapping", "Data Synthesis"],
 
     JobHighlights: [
       "Deep dive into user motivations, behaviors, and pain points.",
@@ -2178,33 +2448,34 @@ export const Joblist = [
       "Create and manage user personas, journey maps, and experience flows.",
       "Collaborate with the design team to brainstorm solutions based on research data.",
       "Manage participant recruitment and consent processes for research studies."
-    ],
-
-    IndustryType: "Research, Consulting, Technology",
-    Department: "UX Research",
-
-    WorkType: "Hybrid",
-    KeySkills: ["Usability Testing", "Qualitative/Quantitative Research", "Survey Design", "Persona Development", "Journey Mapping", "Data Synthesis"]
-
+    ]
   },
   {
     id: "49",
     title: "Interaction Designer (Mobile Focus)",
     company: "Velocity Mobile App",
     companyId: "VMA001",
+    logo: "",
+    posted: "2025/11/24",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Mobile App Development", "Consumer Tech"],
+    Department: ["Interaction Design", "UI/UX Design"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 2.25,
     reviewNo: 188,
-    duration: "Permanent",
     salary: "5.10",
     experience: "3",
     location: "Coimbatore",
-    tags: ["Full-Time"],
-    posted: "2025/11/24",
     openings: 2,
     applicants: 55,
-    logo: "",
+    tags: ["Full-Time"],
 
-
+    EducationRequired: ["B.Des", "B.Tech/B.E.", "BCA", "Any Graduate", "Diploma"],
+    KeySkills: ["Interaction Design", "Mobile UX (iOS/Android)", "Prototyping (Principle/Figma)", "User Flows", "Wireframing", "Animation/Motion"],
 
     JobHighlights: [
       "Focus exclusively on creating fluid, intuitive interactions and micro-animations for mobile (iOS/Android).",
@@ -2221,31 +2492,35 @@ export const Joblist = [
       "Create high-fidelity motion prototypes to demonstrate interaction models.",
       "Collaborate with engineering to ensure technical feasibility of interactions.",
       "Conduct heuristic evaluations of existing mobile app screens."
-    ],
-
-    IndustryType: "Mobile App Development, Consumer Tech",
-    Department: "Interaction Design, UX",
-
-    WorkType: "Remote",
-    KeySkills: ["Interaction Design", "Mobile UX (iOS/Android)", "Prototyping (Principle/Figma)", "User Flows", "Wireframing", "Animation/Motion"]
-
+    ]
   },
   {
     id: "50",
     title: "Junior UX/UI Designer (eCommerce)",
     company: "Retail Stream Digital",
     companyId: "RSD001",
+    logo: "",
+    posted: "2025/11/23",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["eCommerce", "Retail Tech"],
+    Department: ["UI/UX Design"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 2.5,
     reviewNo: 785,
-    duration: "Permanent",
     salary: "4.80",
     experience: "2",
     location: "Delhi",
-    tags: ["Internship"],
-    posted: "2025/11/23",
     openings: 3,
     applicants: 120,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Des", "Diploma", "B.Tech/B.E.", "Any Graduate", "BFA"],
+    KeySkills: ["Figma/Sketch", "Visual Design", "Wireframing", "Prototyping (Basic)", "eCommerce UX", "Design Principles"],
+
     JobHighlights: [
       "Focus on conversion rate optimization (CRO) for an e-commerce platform.",
       "Work on critical areas like product pages, checkout flows, and navigation.",
@@ -2261,31 +2536,35 @@ export const Joblist = [
       "Participate in design critiques and contribute constructive feedback.",
       "Help prepare assets for development hand-off and ensure quality control.",
       "Maintain adherence to brand guidelines and accessibility standards."
-    ],
-
-    IndustryType: "eCommerce, Retail Tech",
-    Department: "UX/UI Design",
-
-    WorkType: "Hybrid",
-    KeySkills: ["Figma/Sketch", "Visual Design", "Wireframing", "Prototyping (Basic)", "eCommerce UX", "Design Principles"]
-
+    ]
   },
   {
     id: "51",
     title: "Frontend Developer",
     company: "PixelCoders Tech",
     companyId: "PCT001",
+    logo: "",
+    posted: "2025/11/18",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Frontend Development"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.3,
     reviewNo: 533,
-    duration: "Permanent",
     salary: "3.2",
     experience: "1",
     location: "Bangalore",
-    tags: ["Full-Time"],
-    posted: "2025/11/18",
     openings: 4,
     applicants: 310,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "B.Sc", "Any Graduate"],
+    KeySkills: ["React", "HTML", "CSS", "JavaScript", "UI/UX"],
+
     JobHighlights: [
       "Build responsive UI components.",
       "Work with React and Tailwind.",
@@ -2301,31 +2580,35 @@ export const Joblist = [
       "Work with REST APIs.",
       "Optimize frontend performance.",
       "Participate in daily standups."
-    ],
-
-    IndustryType: "IT Services",
-    Department: "Frontend Development",
-
-    WorkType: "On-site",
-    KeySkills: ["React", "HTML", "CSS", "JavaScript", "UI/UX"]
-
+    ]
   },
   {
     id: "52",
     title: "Backend Developer",
     company: "SkyBase Solutions",
     companyId: "SBS001",
+    logo: "",
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Software Development"],
+    Department: ["Backend"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.5,
     reviewNo: 258,
-    duration: "Permanent",
     salary: "4.0",
     experience: "4",
     location: "Hyderabad",
-    tags: ["Full-Time"],
-    posted: "2025/11/15",
     openings: 3,
     applicants: 250,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "BCA", "Any Graduate"],
+    KeySkills: ["Node.js", "MongoDB", "Express", "SQL", "API Development"],
+
     JobHighlights: [
       "Build backend APIs.",
       "Database optimization.",
@@ -2341,31 +2624,35 @@ export const Joblist = [
       "Secure backend architecture.",
       "Debug backend issues.",
       "Improve system performance."
-    ],
-
-    IndustryType: "Software Development",
-    Department: "Backend",
-
-    WorkType: "Hybrid",
-    KeySkills: ["Node.js", "MongoDB", "Express", "SQL", "API Development"]
-
+    ]
   },
   {
     id: "53",
     title: "UI/UX Designer",
     company: "DesignSphere Studio",
     companyId: "DSS001",
+    logo: "",
+    posted: "2025/11/10",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Design"],
+    Department: ["UI/UX Design"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "3 months duration",
+
     ratings: 1.75,
     reviewNo: 156,
-    duration: "3 months duration",
     salary: "1.2",
     experience: "0",
     location: "Pune",
-    tags: ["Internship"],
-    posted: "2025/11/10",
     openings: 5,
     applicants: 180,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["Diploma", "B.Des", "Any Graduate", "BFA", "B.Sc"],
+    KeySkills: ["Figma", "Wireframing", "Prototyping", "User Research"],
+
     JobHighlights: [
       "Work on mobile app design.",
       "Hands-on Figma experience.",
@@ -2381,31 +2668,35 @@ export const Joblist = [
       "Conduct user research.",
       "Improve user flows.",
       "Support senior designers."
-    ],
-
-    IndustryType: "Design",
-    Department: "UI/UX",
-
-    WorkType: "On-site",
-    KeySkills: ["Figma", "Wireframing", "Prototyping", "User Research"]
-
+    ]
   },
   {
     id: "54",
     title: "Java Developer",
     company: "CodeMatrix Pvt Ltd",
     companyId: "CMPL001",
+    logo: "",
+    posted: "2025/11/12",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Software Development"],
+    Department: ["Backend Development"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.5,
     reviewNo: 533,
-    duration: "Permanent",
     salary: "4.5",
     experience: "2",
     location: "Chennai",
-    tags: ["Full-Time"],
-    posted: "2025/11/12",
     openings: 2,
     applicants: 140,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "M.Tech", "Any Graduate"],
+    KeySkills: ["Java", "Spring Boot", "Microservices", "SQL"],
+
     JobHighlights: [
       "Develop Java-based applications.",
       "Work on microservices.",
@@ -2421,31 +2712,35 @@ export const Joblist = [
       "Fix production issues.",
       "Implement microservices.",
       "Collaborate with QA teams."
-    ],
-
-    IndustryType: "Software Development",
-    Department: "Backend Development",
-
-    WorkType: "On-site",
-    KeySkills: ["Java", "Spring Boot", "Microservices", "SQL"]
-
+    ]
   },
   {
     id: "55",
     title: "Data Analyst",
     company: "InsightTech Analytics",
     companyId: "ITA001",
+    logo: "",
+    posted: "2025/11/14",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Analytics"],
+    Department: ["Data"],
+    WorkType: "Hybrid",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 2.25,
     reviewNo: 156,
-    duration: "Permanent",
     salary: "3.8",
     experience: "1",
     location: "Gurgaon",
-    tags: ["Full-Time"],
-    posted: "2025/11/14",
     openings: 3,
     applicants: 260,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Sc", "BCA", "B.Com", "Any Graduate", "B.Tech/B.E."],
+    KeySkills: ["Power BI", "Excel", "SQL", "Data Cleaning"],
+
     JobHighlights: [
       "Analyze large datasets.",
       "Work with dashboards.",
@@ -2461,31 +2756,35 @@ export const Joblist = [
       "Build Power BI dashboards.",
       "Work with SQL databases.",
       "Present insights clearly."
-    ],
-
-    IndustryType: "Analytics",
-    Department: "Data",
-
-    WorkType: "Hybrid",
-    KeySkills: ["Power BI", "Excel", "SQL", "Data Cleaning"]
-
+    ]
   },
   {
     id: "56",
     title: "Mobile App Developer",
     company: "AppCrafters Lab",
     companyId: "ACL001",
+    logo: "",
+    posted: "2025/11/16",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Mobile Development"],
+    Department: ["App Development"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4,
     reviewNo: 35,
-    duration: "Permanent",
     salary: "4.2",
     experience: "3",
     location: "Kochi",
-    tags: ["Full-Time"],
-    posted: "2025/11/16",
     openings: 4,
     applicants: 180,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "BCA", "Diploma", "Any Graduate"],
+    KeySkills: ["Flutter", "Dart", "Android", "iOS"],
+
     JobHighlights: [
       "Develop Android/iOS apps.",
       "Collaborate with UI teams.",
@@ -2501,31 +2800,35 @@ export const Joblist = [
       "Integrate APIs.",
       "Test app functionality.",
       "Deploy apps on stores."
-    ],
-
-    IndustryType: "Mobile Development",
-    Department: "App Development",
-
-    WorkType: "On-site",
-    KeySkills: ["Flutter", "Dart", "Android", "iOS"]
-
+    ]
   },
   {
     id: "57",
     title: "Graphic Designer",
     company: "CreativeVista Agency",
     companyId: "CVA001",
+    logo: "",
+    posted: "2025/11/19",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Design"],
+    Department: ["Graphic Design"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "3 months duration",
+
     ratings: 5,
     reviewNo: 1586,
-    duration: "3 months duration",
     salary: "1.6",
     experience: "0",
     location: "Remote",
-    tags: ["Internship"],
-    posted: "2025/11/19",
     openings: 5,
     applicants: 120,
-    logo: "",
+    tags: ["Internship"],
+
+    EducationRequired: ["Diploma", "BFA", "Any Graduate", "B.A", "Graduation Not Required"],
+    KeySkills: ["Photoshop", "Illustrator", "Branding", "Creativity"],
+
     JobHighlights: [
       "Create marketing graphics.",
       "Brand design work.",
@@ -2541,31 +2844,35 @@ export const Joblist = [
       "Deliver creative concepts.",
       "Work with content teams.",
       "Make revisions as needed."
-    ],
-
-    IndustryType: "Design",
-    Department: "Graphic Design",
-
-    WorkType: "Remote",
-    KeySkills: ["Photoshop", "Illustrator", "Branding", "Creativity"]
-
+    ]
   },
   {
     id: "58",
     title: "HR Recruiter",
     company: "TalentHive HR",
     companyId: "THHR001",
+    logo: "",
+    posted: "2025/11/11",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["HR Services"],
+    Department: ["Recruitment"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.5,
     reviewNo: 256,
-    duration: "Permanent",
     salary: "2.8",
     experience: "0",
     location: "Delhi",
-    tags: ["Full-Time"],
-    posted: "2025/11/11",
     openings: 8,
     applicants: 300,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "B.B.A/ B.M.S", "Any Graduate", "B.A", "Any Postgraduate"],
+    KeySkills: ["Recruitment", "Communication", "Screening", "Coordination"],
+
     JobHighlights: [
       "Recruit for IT & Non-IT roles.",
       "Interview screening.",
@@ -2581,31 +2888,35 @@ export const Joblist = [
       "Manage onboarding.",
       "Maintain MIS reports.",
       "Coordinate with managers."
-    ],
-
-    IndustryType: "HR Services",
-    Department: "Recruitment",
-
-    WorkType: "On-site",
-    KeySkills: ["Recruitment", "Communication", "Screening", "Coordination"]
-
+    ]
   },
   {
     id: "59",
     title: "Cloud Engineer",
     company: "CloudNova Systems",
     companyId: "CNS001",
+    logo: "",
+    posted: "2025/11/09",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Cloud Computing"],
+    Department: ["DevOps"],
+    WorkType: "Hybrid",
+    Shift: "Night",
+    duration: "Permanent",
+
     ratings: 2.5,
     reviewNo: 5164,
-    duration: "Permanent",
     salary: "5.0",
     experience: "5",
     location: "Bangalore",
-    tags: ["Full-Time"],
-    posted: "2025/11/09",
     openings: 2,
     applicants: 110,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "B.Sc", "Any Graduate"],
+    KeySkills: ["AWS", "Terraform", "Docker", "CI/CD"],
+
     JobHighlights: [
       "Work on AWS cloud.",
       "Infrastructure scaling.",
@@ -2621,31 +2932,35 @@ export const Joblist = [
       "Monitor performance.",
       "Maintain cloud security.",
       "Solve platform issues."
-    ],
-
-    IndustryType: "Cloud Computing",
-    Department: "DevOps",
-
-    WorkType: "Hybrid",
-    KeySkills: ["AWS", "Terraform", "Docker", "CI/CD"]
-
+    ]
   },
   {
     id: "60",
     title: "Business Analyst",
     company: "Visionary Corp",
     companyId: "VCO001",
+    logo: "",
+    posted: "2025/11/13",
+    PostedBy: "Consultant Jobs",
+
+    IndustryType: ["Business Consulting"],
+    Department: ["Business Analysis"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 2.5,
     reviewNo: 158,
-    duration: "Permanent",
     salary: "3.4",
     experience: "3",
     location: "Mumbai",
-    tags: ["Full-Time"],
-    posted: "2025/11/13",
     openings: 2,
     applicants: 170,
-    logo: "",
+    tags: ["Full-Time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "B.Com", "Any Graduate", "Bachelor Of Science (B.Sc.) In Business Economics"],
+    KeySkills: ["Business Analysis", "Documentation", "Excel", "Communication"],
+
     JobHighlights: [
       "Client requirement analysis.",
       "Prepare business reports.",
@@ -2661,34 +2976,35 @@ export const Joblist = [
       "Document workflows.",
       "Prepare reports.",
       "Coordinate with stakeholders."
-    ],
-
-    IndustryType: "Business Consulting",
-    Department: "Business Analysis",
-
-    WorkType: "On-site",
-    KeySkills: ["Business Analysis", "Documentation", "Excel", "Communication"]
-
+    ]
   },
   {
     id: "61",
     title: "Data Analyst",
     company: "Apple IN",
     companyId: "AIN001",
+    logo: AppleLogo,
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Analytics", "BI"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "3 months duration",
+
     ratings: 3.5,
     reviewNo: 533,
-    duration: "3 months duration",
     salary: "3.5",
     experience: "2",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: AppleLogo,
-    IndustryType: "IT Services",
-    Department: "Analytics, BI",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Sc (Science)", "B.Sc", "MCA", "Any Graduate"],
+    KeySkills: ["SQL", "Data Visualization", "Python/R", "Data Modeling", "Business Intelligence"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Proven work experience as a Data Analyst",
@@ -2707,28 +3023,35 @@ export const Joblist = [
       "Identify and troubleshoot UX problems (e.g., responsiveness issues).",
       "Conduct layout adjustments based on user feedback.",
       "Adhere to style standards on fonts, colors, and images."
-    ],
-    KeySkills: ["SQL", "Data Visualization", "Python/R", "Data Modeling", "Business Intelligence"]
+    ]
   },
   {
     id: "63",
     title: "Product Designer",
     company: "Apple IN",
     companyId: "AIN001",
+    logo: AppleLogo,
+    posted: "2025/10/28",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["UI/UX Design"], // Standardized from "UX-UI"
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 3.5,
     reviewNo: 533,
-    duration: "6 months duration",
     salary: "7.0",
     experience: "4",
     location: "Hyderabad",
-    tags: ["Internship"],
-    posted: "2025/10/28",
     openings: 3,
     applicants: 25,
-    WorkType: "Remote",
-    logo: AppleLogo,
-    IndustryType: "IT Services",
-    Department: "UX-UI",
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Des", "M.Des", "B.Tech/B.E.", "Any Graduate", "Diploma"],
+    KeySkills: ["UX Design", "UI Design", "Prototyping", "Sketch/Figma", "User Research", "Design Systems"],
+
     JobHighlights: [
       "A strong portfolio showcasing end-to-end design projects",
       "Experience with prototyping and motion design",
@@ -2744,28 +3067,35 @@ export const Joblist = [
       "Present design concepts to cross-functional stakeholders and incorporate feedback iteratively.",
       "Work closely with engineers during development to ensure pixel-perfect implementation and address any design compromises.",
       "Champion accessibility and inclusive design principles throughout the product lifecycle."
-    ],
-    KeySkills: ["UX Design", "UI Design", "Prototyping", "Sketch/Figma", "User Research", "Design Systems"]
+    ]
   },
   {
     id: "64",
     title: "Technical Program Manager",
     company: "Apple IN",
     companyId: "AIN001",
+    logo: AppleLogo,
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Engineering"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Full-time",
+
     ratings: 3.5,
     reviewNo: 533,
-    duration: "Full-time",
     salary: "10",
     experience: "7",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/15",
     openings: 4,
     applicants: 50,
-    WorkType: "Hybrid",
-    logo: AppleLogo,
-    IndustryType: "IT Services",
-    Department: "Engineering",
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MBA/PGDM", "M.Tech", "Any Graduate", "MCA"],
+    KeySkills: ["Agile/Scrum", "Risk Management", "System Architecture", "Software Development Life Cycle (SDLC)", "Cross-Functional Leadership"],
+
     JobHighlights: [
       "Strong technical background in software or hardware development",
       "Experience managing large, cross-functional technical programs",
@@ -2781,28 +3111,35 @@ export const Joblist = [
       "Communicate program status, risks, and trade-offs clearly to all levels of the organization, including executive stakeholders.",
       "Facilitate technical discussions and design reviews to ensure alignment and quality of solutions.",
       "Drive process improvements to increase engineering velocity and efficiency."
-    ],
-    KeySkills: ["Agile/Scrum", "Risk Management", "System Architecture", "Software Development Life Cycle (SDLC)", "Cross-Functional Leadership"]
+    ]
   },
   {
     id: "65",
     title: "Financial Analyst",
     company: "Apple IN",
     companyId: "AIN001",
+    logo: Cts, // Kept as provided in source
+    posted: "2025/10/20",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["Corporate Functions"],
+    Department: ["Finance", "Accounting"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Full-time",
+
     ratings: 3.5,
     reviewNo: 533,
-    duration: "Full-time",
     salary: "6.0",
     experience: "4",
     location: "Gurugram",
-    tags: ["Full-time"],
-    posted: "2025/10/20",
     openings: 2,
     applicants: 35,
-    WorkType: "On-site",
-    logo: Cts,
-    IndustryType: "Corporate Functions",
-    Department: "Finance, Accounting",
+    tags: ["Full-time"],
+
+    EducationRequired: ["CA", "MBA/PGDM", "B.Com", "M.Com", "Bachelor Of Science (B.Sc.) In Business Economics"],
+    KeySkills: ["Financial Modeling", "Budgeting & Forecasting", "SAP/Oracle", "Variance Analysis", "Advanced Excel", "FP&A"],
+
     JobHighlights: [
       "CFA or CPA certification preferred",
       "Proven experience in financial modeling and forecasting",
@@ -2818,26 +3155,35 @@ export const Joblist = [
       "Partner with department heads to manage their spend, identify cost optimization opportunities, and monitor key financial performance indicators (KPIs).",
       "Ensure compliance with internal financial policies and assist with external audit requests.",
       "Drive process efficiencies in financial reporting and planning tools."
-    ],
-    KeySkills: ["Financial Modeling", "Budgeting & Forecasting", "SAP/Oracle", "Variance Analysis", "Advanced Excel", "FP&A"]
+    ]
   },
   {
     id: "66",
     title: "Data Analyst (Internship)",
     company: "Cognizant Technologies",
     companyId: "CTS001",
+    logo: Cts,
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Analytics"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "3 months duration",
+
     ratings: 3.9,
     reviewNo: 854,
-    duration: "3 months duration",
     salary: "3.5",
     experience: "2",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: Cts,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Sc", "B.Tech/B.E.", "BCA", "Any Graduate", "M.Sc (Science)"],
+    KeySkills: ["SQL", "Excel", "Data Cleaning", "Data Visualization", "Statistical Analysis"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Proficiency in SQL and Excel required",
@@ -2852,28 +3198,35 @@ export const Joblist = [
       "Identify, analyze, and interpret trends or patterns in complex data sets.",
       "Work with management to prioritize business and information needs.",
       "Create and present dashboards and reports for internal stakeholders."
-    ],
-    IndustryType: "IT Services",
-    Department: "Analytics",
-    KeySkills: ["SQL", "Excel", "Data Cleaning", "Data Visualization", "Statistical Analysis"]
+    ]
   },
   {
     id: "67",
     title: "Full Stack Developer",
     company: "Cognizant Technologies",
     companyId: "CTS001",
+    logo: Cts,
+    posted: "2025/11/22",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Engineering"],
+    WorkType: "Hybrid",
+    Shift: "Night",
+    duration: "Permanent",
+
     ratings: 3.9,
     reviewNo: 854,
-    duration: "Permanent",
     salary: "6.0",
     experience: "3",
     location: "Pune",
-    tags: ["Full-time"],
-    posted: "2025/11/22",
     openings: 8,
     applicants: 75,
-    WorkType: "Hybrid",
-    logo: Cts,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "M.Tech", "Any Graduate", "BCA"],
+    KeySkills: ["React", "Node.js", "SQL/NoSQL", "REST APIs", "Azure", "JavaScript"],
+
     JobHighlights: [
       "Expertise in JavaScript frameworks (React/Angular)",
       "Strong understanding of RESTful APIs and microservices",
@@ -2888,28 +3241,35 @@ export const Joblist = [
       "Optimize application for maximum speed and scalability.",
       "Implement security and data protection settings.",
       "Work closely with DevOps to deploy and monitor applications."
-    ],
-    IndustryType: "IT Services",
-    Department: "Engineering",
-    KeySkills: ["React", "Node.js", "SQL/NoSQL", "REST APIs", "Azure", "JavaScript"]
+    ]
   },
   {
     id: "68",
     title: "Cloud Security Engineer",
     company: "Cognizant Technologies",
     companyId: "CTS001",
+    logo: Cts,
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Security"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 3.9,
     reviewNo: 854,
-    duration: "Permanent",
     salary: "9.0",
     experience: "5",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/15",
     openings: 4,
     applicants: 50,
-    WorkType: "On-site",
-    logo: Cts,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "Any Graduate", "MS/M.Sc (Science)"],
+    KeySkills: ["Cloud Security", "AWS/Azure", "DevSecOps", "Threat Modeling", "Identity Access Management (IAM)", "SIEM"],
+
     JobHighlights: [
       "Certification in Cloud Security (e.g., CISSP, CCSP, AWS Security)",
       "Deep knowledge of cloud platform security services (Azure/AWS/GCP)",
@@ -2924,28 +3284,35 @@ export const Joblist = [
       "Respond to and investigate security incidents and threats within the cloud environment.",
       "Conduct security audits and compliance reviews (e.g., ISO, SOC 2).",
       "Provide guidance to engineering teams on secure coding and infrastructure practices."
-    ],
-    IndustryType: "IT Services",
-    Department: "Security",
-    KeySkills: ["Cloud Security", "AWS/Azure", "DevSecOps", "Threat Modeling", "Identity Access Management (IAM)", "SIEM"]
+    ]
   },
   {
     id: "69",
     title: "Business Analyst (Internship)",
     company: "Cognizant Technologies",
     companyId: "CTS001",
+    logo: "CognizantLogo",
+    posted: "2025/11/10",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Consulting", "Project Management"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 3.9,
     reviewNo: 854,
-    duration: "6 months duration",
     salary: "3.0",
     experience: "1",
     location: "Mumbai",
-    tags: ["Internship"],
-    posted: "2025/11/10",
     openings: 6,
     applicants: 60,
-    WorkType: "Hybrid",
-    logo: "CognizantLogo",
+    tags: ["Internship"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "B.B.A/ B.M.S", "Any Graduate", "Any Postgraduate"],
+    KeySkills: ["Requirements Gathering", "UML/Flowcharting", "Stakeholder Analysis", "User Stories", "MS Visio"],
+
     JobHighlights: [
       "Excellent documentation and diagramming skills",
       "Strong analytical and conceptual thinking skills",
@@ -2960,28 +3327,35 @@ export const Joblist = [
       "Conduct gap analysis between current and future state processes.",
       "Participate in testing and quality assurance activities.",
       "Support product owner in prioritizing the backlog and managing scope changes."
-    ],
-    IndustryType: "IT Services",
-    Department: "Consulting, Project Management",
-    KeySkills: ["Requirements Gathering", "UML/Flowcharting", "Stakeholder Analysis", "User Stories", "MS Visio"]
+    ]
   },
   {
     id: "71",
     title: "Data Analyst (Internship)",
     company: "Amazon",
     companyId: "AMZ001",
+    logo: AmazonLogo,
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["E-commerce", "IT Services"],
+    Department: ["Analytics"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "3 months duration",
+
     ratings: 4.2,
     reviewNo: 759,
-    duration: "3 months duration",
     salary: 3.5,
     experience: "2",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: AmazonLogo,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "BCA", "B.Sc", "M.Sc (Science)", "Any Graduate"],
+    KeySkills: ["SQL", "Redshift", "Data Visualization", "Python/R", "Statistical Analysis"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Proficiency in SQL and Data Warehousing",
@@ -2996,28 +3370,35 @@ export const Joblist = [
       "Collaborate with business teams to define key performance indicators (KPIs).",
       "Assist in A/B testing analysis and report on test results.",
       "Document data sources, data dictionaries, and analytical methodologies."
-    ],
-    IndustryType: "E-commerce, IT Services",
-    Department: "Analytics",
-    KeySkills: ["SQL", "Redshift", "Data Visualization", "Python/R", "Statistical Analysis"]
+    ]
   },
   {
     id: "72",
     title: "Software Development Engineer II",
     company: "Amazon",
     companyId: "AMZ001",
+    logo: AmazonLogo,
+    posted: "2025/11/20",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["E-commerce", "IT Services"],
+    Department: ["Engineering"],
+    WorkType: "Hybrid",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 759,
-    duration: "Permanent",
     salary: 25.0,
     experience: "4",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/20",
     openings: 12,
     applicants: 150,
-    WorkType: "Hybrid",
-    logo: AmazonLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MCA", "MS/M.Sc (Science)", "Any Graduate"],
+    KeySkills: ["Java/C++", "Distributed Systems", "AWS", "System Design", "Algorithms", "Microservices"],
+
     JobHighlights: [
       "Proven track record delivering scalable, high-latency services",
       "Expertise in Java, C++, or Python in a Linux environment",
@@ -3032,28 +3413,35 @@ export const Joblist = [
       "Own operational excellence for your services, including monitoring, alerting, and incident response.",
       "Conduct thorough code reviews and advocate for best development practices.",
       "Drive improvements in performance, scalability, and system reliability."
-    ],
-    IndustryType: "E-commerce, IT Services",
-    Department: "Engineering",
-    KeySkills: ["Java/C++", "Distributed Systems", "AWS", "System Design", "Algorithms", "Microservices"]
+    ]
   },
   {
     id: "73",
     title: "UX Designer",
     company: "Amazon",
     companyId: "AMZ001",
+    logo: AmazonLogo,
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["E-commerce", "IT Services"],
+    Department: ["UI/UX Design"], // Standardized from "UX-UI Design"
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 759,
-    duration: "Permanent",
     salary: 18.0,
     experience: "5",
     location: "Hyderabad",
-    tags: ["Full-time"],
-    posted: "2025/11/15",
     openings: 4,
     applicants: 60,
-    WorkType: "Remote",
-    logo: AmazonLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Des", "M.Des", "Any Graduate", "B.Tech/B.E.", "Diploma"],
+    KeySkills: ["UX Research", "Figma", "Prototyping", "Information Architecture", "Usability Testing", "Design Systems"],
+
     JobHighlights: [
       "Strong portfolio showcasing human-centered design principles",
       "Expertise in designing for complex web applications and mobile",
@@ -3068,28 +3456,35 @@ export const Joblist = [
       "Present design concepts and rationale to cross-functional teams and leadership.",
       "Collaborate closely with SDEs and Product Managers to ensure design fidelity during implementation.",
       "Contribute to and maintain the product's design system and component library."
-    ],
-    IndustryType: "E-commerce, IT Services",
-    Department: "UX-UI Design",
-    KeySkills: ["UX Research", "Figma", "Prototyping", "Information Architecture", "Usability Testing", "Design Systems"]
+    ]
   },
   {
     id: "74",
     title: "Financial Analyst II",
     company: "Amazon",
     companyId: "AMZ001",
+    logo: AmazonLogo,
+    posted: "2025/11/10",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["E-commerce", "Corporate"],
+    Department: ["Finance", "Accounting"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 759,
-    duration: "Permanent",
     salary: 14.5,
     experience: "3",
     location: "Chennai",
-    tags: ["Full-time"],
-    posted: "2025/11/10",
     openings: 6,
     applicants: 45,
-    WorkType: "On-site",
-    logo: AmazonLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["CA", "MBA/PGDM", "B.Com", "M.Com", "Any Graduate"],
+    KeySkills: ["FP&A", "Financial Modeling", "Budgeting", "Variance Analysis", "Excel", "Hyperion/Cognos"],
+
     JobHighlights: [
       "Experience in Financial Planning & Analysis (FP&A)",
       "Advanced proficiency in Excel and financial modeling",
@@ -3104,28 +3499,35 @@ export const Joblist = [
       "Partner with business leaders to manage operating expenses and identify cost efficiencies.",
       "Support the annual operating plan (AOP) creation.",
       "Ensure data integrity and accuracy in financial reporting systems."
-    ],
-    IndustryType: "E-commerce, Corporate",
-    Department: "Finance & Accounting",
-    KeySkills: ["FP&A", "Financial Modeling", "Budgeting", "Variance Analysis", "Excel", "Hyperion/Cognos"]
+    ]
   },
   {
     id: "75",
     title: "Marketing Specialist (Internship)",
     company: "Amazon",
     companyId: "AMZ001",
+    logo: AmazonLogo,
+    posted: "2025/11/01",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["E-commerce", "Marketing"],
+    Department: ["Marketing", "Sales"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 4.2,
     reviewNo: 759,
-    duration: "6 months duration",
     salary: 4.0,
     experience: "1",
     location: "Mumbai",
-    tags: ["Internship"],
-    posted: "2025/11/01",
     openings: 8,
     applicants: 90,
-    WorkType: "Hybrid",
-    logo: AmazonLogo,
+    tags: ["Internship"],
+
+    EducationRequired: ["MBA/PGDM", "B.B.A/ B.M.S", "B.Com", "Any Graduate", "Diploma"],
+    KeySkills: ["Digital Marketing", "SEO/SEM", "Content Creation", "Campaign Management", "Data Analysis", "Market Research"],
+
     JobHighlights: [
       "Familiarity with digital marketing platforms (e.g., Google Ads, Meta)",
       "Strong analytical skills to interpret campaign performance data",
@@ -3140,29 +3542,35 @@ export const Joblist = [
       "Contribute to the development of engaging marketing copy and creative briefs.",
       "Manage and organize marketing assets and content calendars.",
       "Collaborate with the Data Analyst team to extract meaningful insights from campaign data."
-    ],
-    IndustryType: "E-commerce, Marketing",
-    Department: "Marketing-Sales",
-    KeySkills: ["Digital Marketing", "SEO/SEM", "Content Creation", "Campaign Management", "Data Analysis", "Market Research"]
+    ]
   },
-
   {
     id: "77",
     title: "Java Developer",
     company: "InfoSys Technologies",
     companyId: "IST001",
+    logo: InfyLogo,
+    posted: "2025/11/25",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Engineering", "Development"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.6,
     reviewNo: 1854,
-    duration: "Permanent",
     salary: "7.0 - 11.0",
     experience: "4",
     location: "Pune",
-    tags: ["Full-time"],
-    posted: "2025/11/25",
     openings: 15,
     applicants: 90,
-    WorkType: "Hybrid",
-    logo: InfyLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "M.Tech", "Any Graduate", "BCA"],
+    KeySkills: ["Core Java", "Spring Boot", "Microservices", "REST API", "JPA/Hibernate", "Maven/Gradle"],
+
     JobHighlights: [
       "Strong proficiency in Core Java and Spring Framework",
       "Experience with RESTful web services and microservices architecture",
@@ -3177,28 +3585,35 @@ export const Joblist = [
       "Ensure designs are in compliance with specifications.",
       "Prepare and produce releases of software components.",
       "Support continuous improvement by investigating alternatives and technologies."
-    ],
-    IndustryType: "IT Services",
-    Department: "Engineering, Development",
-    KeySkills: ["Core Java", "Spring Boot", "Microservices", "REST API", "JPA/Hibernate", "Maven/Gradle"]
+    ]
   },
   {
     id: "78",
     title: "Business Consultant",
     company: "InfoSys Technologies",
     companyId: "IST001",
+    logo: InfyLogo,
+    posted: "2025/11/20",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services", "Consulting"],
+    Department: ["Consulting", "Strategy"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.6,
     reviewNo: 1854,
-    duration: "Permanent",
     salary: "10.0 - 18.0",
     experience: "7",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/20",
     openings: 6,
     applicants: 70,
-    WorkType: "On-site",
-    logo: InfyLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "Any Postgraduate", "Any Graduate", "Bachelor Of Science (B.Sc.) In Business Economics"],
+    KeySkills: ["Business Strategy", "Process Mapping", "Stakeholder Management", "Digital Transformation", "Consulting", "Solution Architecture"],
+
     JobHighlights: [
       "MBA from a reputed institution is highly desirable",
       "Proven experience in strategic consulting within the IT industry",
@@ -3213,28 +3628,35 @@ export const Joblist = [
       "Translate high-level business requirements into clear, actionable technical requirements for delivery teams.",
       "Serve as a trusted advisor to clients throughout the engagement lifecycle.",
       "Support pre-sales activities, including proposal writing and presentations."
-    ],
-    IndustryType: "IT Services, Consulting",
-    Department: "Consulting, Strategy",
-    KeySkills: ["Business Strategy", "Process Mapping", "Stakeholder Management", "Digital Transformation", "Consulting", "Solution Architecture"]
+    ]
   },
   {
     id: "79",
     title: "Cloud Operations Intern",
     company: "InfoSys Technologies",
     companyId: "IST001",
+    logo: InfyLogo,
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Cloud", "DevOps"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "6 months duration",
+
     ratings: 3.6,
     reviewNo: 1854,
-    duration: "6 months duration",
     salary: "4.0",
     experience: "0",
     location: "Mysore",
-    tags: ["Internship"],
-    posted: "2025/11/15",
     openings: 10,
     applicants: 50,
-    WorkType: "On-site",
-    logo: InfyLogo,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Tech/B.E.", "BCA", "Diploma", "Any Graduate", "M.Sc (Science)"],
+    KeySkills: ["AWS/Azure Fundamentals", "Linux", "Scripting (Shell/Python)", "Monitoring Tools", "ITIL"],
+
     JobHighlights: [
       "Basic understanding of cloud platforms (AWS/Azure/GCP)",
       "Familiarity with Linux and basic scripting (Shell/Python)",
@@ -3249,28 +3671,35 @@ export const Joblist = [
       "Write simple automation scripts (e.g., for data backup or reporting).",
       "Document operational procedures and runbooks.",
       "Participate in incident response and root cause analysis under supervision."
-    ],
-    IndustryType: "IT Services",
-    Department: "Cloud, DevOps",
-    KeySkills: ["AWS/Azure Fundamentals", "Linux", "Scripting (Shell/Python)", "Monitoring Tools", "ITIL"]
+    ]
   },
   {
     id: "80",
     title: "Quality Assurance Lead",
     company: "InfoSys Technologies",
     companyId: "IST001",
+    logo: InfyLogo,
+    posted: "2025/11/10",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Quality Assurance", "Testing"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.6,
     reviewNo: 1854,
-    duration: "Permanent",
     salary: "8.0 - 14.0",
     experience: "6",
     location: "Hyderabad",
-    tags: ["Full-time"],
-    posted: "2025/11/10",
     openings: 8,
     applicants: 45,
-    WorkType: "Hybrid",
-    logo: InfyLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "M.Tech", "Any Graduate", "M.Sc (Science)"],
+    KeySkills: ["Selenium/Cypress", "Test Automation", "Performance Testing", "Agile/Scrum", "CI/CD", "Test Leadership"],
+
     JobHighlights: [
       "Expertise in automation testing frameworks (Selenium, Cypress)",
       "Experience leading a team of 3+ QA engineers",
@@ -3285,29 +3714,35 @@ export const Joblist = [
       "Integrate automated tests into the CI/CD pipeline.",
       "Oversee all types of testing (functional, performance, security, regression).",
       "Generate detailed reports on testing status, defects, and quality metrics for project management."
-    ],
-    IndustryType: "IT Services",
-    Department: "Quality Assurance, Testing",
-    KeySkills: ["Selenium/Cypress", "Test Automation", "Performance Testing", "Agile/Scrum", "CI/CD", "Test Leadership"]
+    ]
   },
-
   {
     id: "82",
     title: "Software Engineer",
     company: "Wipro Limited",
     companyId: "WIB001",
+    logo: Wipro,
+    posted: "2025/11/18",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Engineering", "Development"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.8,
     reviewNo: 968,
-    duration: "Permanent",
     salary: "4.5",
     experience: "1",
     location: "Pune",
-    tags: ["Full-time"],
-    posted: "2025/11/18",
     openings: 20,
     applicants: 150,
-    WorkType: "Hybrid",
-    logo: Wipro,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "B.Sc", "Any Graduate", "M.Tech"],
+    KeySkills: ["Java/Python/.NET", "DSA", "Agile/Scrum", "SQL", "API Development"],
+
     JobHighlights: [
       "Proficiency in one programming language (Java/Python/.NET)",
       "Strong foundation in Data Structures and Algorithms (DSA)",
@@ -3322,28 +3757,35 @@ export const Joblist = [
       "Document and maintain software functionality.",
       "Troubleshoot, debug, and upgrade existing systems.",
       "Participate in daily stand-ups and sprint planning sessions."
-    ],
-    IndustryType: "IT Services",
-    Department: "Engineering, Development",
-    KeySkills: ["Java/Python/.NET", "DSA", "Agile/Scrum", "SQL", "API Development"]
+    ]
   },
   {
     id: "83",
     title: "Cloud Architect",
     company: "Wipro Limited",
     companyId: "WIB001",
+    logo: Wipro,
+    posted: "2025/11/22",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services", "Consulting"],
+    Department: ["Cloud & Infrastructure", "Architecture"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.8,
     reviewNo: 968,
-    duration: "Permanent",
     salary: "20.0",
     experience: "10",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/22",
     openings: 3,
     applicants: 50,
-    WorkType: "Remote",
-    logo: Wipro,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "Any Postgraduate", "Any Graduate", "MS/M.Sc (Science)"],
+    KeySkills: ["AWS/Azure/GCP", "Cloud Migration", "Architecture Design", "Terraform", "DevOps", "Governance"],
+
     JobHighlights: [
       "Certifications in AWS, Azure, or GCP Architecture (e.g., AWS Solution Architect - Professional)",
       "Expert-level knowledge of cloud migration and governance strategies",
@@ -3358,28 +3800,35 @@ export const Joblist = [
       "Conduct cloud governance, cost optimization, and security audits.",
       "Lead client workshops and present technical solutions to C-level executives.",
       "Stay current with emerging cloud technologies and integrate them into service offerings."
-    ],
-    IndustryType: "IT Services, Consulting",
-    Department: "Cloud & Infrastructure, Architecture",
-    KeySkills: ["AWS/Azure/GCP", "Cloud Migration", "Architecture Design", "Terraform", "DevOps", "Governance"]
+    ]
   },
   {
     id: "84",
     title: "Service Desk Analyst (L1)",
     company: "Wipro Limited",
     companyId: "WIB001",
+    logo: Wipro,
+    posted: "2025/11/10",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["IT Operations", "Technical Support"],
+    WorkType: "On-site",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 3.8,
     reviewNo: 968,
-    duration: "Permanent",
     salary: "4.0",
     experience: "0",
     location: "Kolkata",
-    tags: ["Full-time"],
-    posted: "2025/11/10",
     openings: 30,
     applicants: 100,
-    WorkType: "On-site",
-    logo: Wipro,
+    tags: ["Full-time"],
+
+    EducationRequired: ["Any Graduate", "Diploma", "B.Sc", "BCA", "Graduation Not Required"],
+    KeySkills: ["Customer Service", "Troubleshooting", "ServiceNow/CRM", "ITIL", "Windows OS", "MS Office"],
+
     JobHighlights: [
       "Freshers and recent graduates welcome",
       "Excellent verbal and written communication skills (neutral accent)",
@@ -3394,28 +3843,35 @@ export const Joblist = [
       "Escalate unresolved issues to the appropriate Level 2/Level 3 teams.",
       "Maintain a high degree of customer service and professional etiquette.",
       "Follow defined processes (SOPs/SOWs) and adhere to all Service Level Agreements (SLAs)."
-    ],
-    IndustryType: "IT Services",
-    Department: "IT Operations, Technical Support",
-    KeySkills: ["Customer Service", "Troubleshooting", "ServiceNow/CRM", "ITIL", "Windows OS", "MS Office"]
+    ]
   },
   {
     id: "85",
     title: "HR Specialist (Recruitment)",
     company: "Wipro Limited",
     companyId: "WIB001",
+    logo: Wipro,
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Human Resources", "Talent Acquisition"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.8,
     reviewNo: 968,
-    duration: "Permanent",
     salary: "6.0",
     experience: "3",
     location: "Hyderabad",
-    tags: ["Full-time"],
-    posted: "2025/11/15",
     openings: 10,
     applicants: 60,
-    WorkType: "Hybrid",
-    logo: Wipro,
+    tags: ["Full-time"],
+
+    EducationRequired: ["MBA/PGDM", "Any Graduate", "B.B.A/ B.M.S", "B.Com", "Any Postgraduate"],
+    KeySkills: ["Recruitment", "Sourcing", "ATS (Taleo/Workday)", "Stakeholder Management", "Negotiation", "Interviewing"],
+
     JobHighlights: [
       "Proven experience in high-volume IT recruitment or lateral hiring",
       "Strong negotiation and stakeholder management skills",
@@ -3430,29 +3886,35 @@ export const Joblist = [
       "Negotiate salary packages and extend job offers, ensuring market competitiveness.",
       "Maintain accurate and up-to-date candidate records in the Applicant Tracking System (ATS).",
       "Participate in employer branding activities and campus recruitment drives."
-    ],
-    IndustryType: "IT Services",
-    Department: "Human Resources, Talent Acquisition",
-    KeySkills: ["Recruitment", "Sourcing", "ATS (Taleo/Workday)", "Stakeholder Management", "Negotiation", "Interviewing"]
+    ]
   },
-
   {
     id: "87",
     title: "Software Engineer, Backend",
     company: "META",
     companyId: "MET001",
+    logo: metaLogo,
+    posted: "2025/11/20",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Engineering"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 669,
-    duration: "Permanent",
     salary: "35.0",
     experience: "4",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/20",
     openings: 15,
     applicants: 200,
-    WorkType: "Hybrid",
-    logo: metaLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "MS/M.Sc (Science)", "MCA", "Any Graduate"],
+    KeySkills: ["C++", "Python", "Distributed Systems", "Algorithms", "System Design", "Microservices"],
+
     JobHighlights: [
       "Expertise in C++ or Python for high-scale environments",
       "Experience designing and implementing large-scale distributed systems",
@@ -3467,28 +3929,35 @@ export const Joblist = [
       "Troubleshoot and resolve complex production issues in a timely manner.",
       "Drive system design reviews and advocate for engineering best practices.",
       "Optimize data storage and processing for efficiency and performance."
-    ],
-    IndustryType: "IT Services",
-    Department: "Engineering",
-    KeySkills: ["C++", "Python", "Distributed Systems", "Algorithms", "System Design", "Microservices"]
+    ]
   },
   {
     id: "88",
     title: "Product Designer (UX/UI)",
     company: "META",
     companyId: "MET001",
+    logo: metaLogo,
+    posted: "2025/11/18",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Design", "UI/UX Design"], // Standardized to include UI/UX Design
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 669,
-    duration: "Permanent",
     salary: "28.0",
     experience: "3",
     location: "Hyderabad",
-    tags: ["Full-time"],
-    posted: "2025/11/18",
     openings: 8,
     applicants: 90,
-    WorkType: "Remote",
-    logo: metaLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Des", "M.Des", "B.Tech/B.E.", "Diploma", "Any Graduate"],
+    KeySkills: ["UX Design", "UI Design", "Figma", "Prototyping", "User Research", "Design Systems"],
+
     JobHighlights: [
       "Strong portfolio demonstrating end-to-end product design experience",
       "Expertise in user-centered design principles and methodologies",
@@ -3503,28 +3972,35 @@ export const Joblist = [
       "Present design rationale clearly to product and engineering leadership.",
       "Contribute to the development and maintenance of Meta's internal design systems.",
       "Work directly with engineers to ensure design implementation quality."
-    ],
-    IndustryType: "IT Services",
-    Department: "Design",
-    KeySkills: ["UX Design", "UI Design", "Figma", "Prototyping", "User Research", "Design Systems"]
+    ]
   },
   {
     id: "89",
     title: "Technical Program Manager",
     company: "META",
     companyId: "MET001",
+    logo: metaLogo,
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Program Management"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.2,
     reviewNo: 669,
-    duration: "Permanent",
     salary: "32.0",
     experience: "6",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/15",
     openings: 5,
     applicants: 75,
-    WorkType: "On-site",
-    logo: metaLogo,
+    tags: ["Full-time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "M.Tech", "Any Graduate", "MCA"],
+    KeySkills: ["Agile/Scrum", "Program Management", "Technical Roadmapping", "Risk Management", "Infrastructure", "Cross-Functional Leadership"],
+
     JobHighlights: [
       "Proven experience managing complex, cross-functional technical programs",
       "Strong technical background in software engineering or infrastructure",
@@ -3539,28 +4015,35 @@ export const Joblist = [
       "Facilitate technical design discussions and ensure alignment on architecture.",
       "Provide regular, clear, and concise status updates to executive leadership.",
       "Drive continuous process improvements to enhance engineering productivity."
-    ],
-    IndustryType: "IT Services",
-    Department: "Program Management",
-    KeySkills: ["Agile/Scrum", "Program Management", "Technical Roadmapping", "Risk Management", "Infrastructure", "Cross-Functional Leadership"]
+    ]
   },
   {
     id: "90",
     title: "Applied Scientist Intern",
     company: "META",
     companyId: "MET001",
+    logo: metaLogo,
+    posted: "2025/11/10",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Data Science"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 4.2,
     reviewNo: 669,
-    duration: "6 months duration",
     salary: "5.0",
     experience: "1",
     location: "Bengaluru",
-    tags: ["Internship"],
-    posted: "2025/11/10",
     openings: 10,
     applicants: 120,
-    WorkType: "Hybrid",
-    logo: metaLogo,
+    tags: ["Internship"],
+
+    EducationRequired: ["MS/M.Sc (Science)", "M.Tech", "Ph.D", "B.Tech/B.E.", "Any Postgraduate"],
+    KeySkills: ["Machine Learning", "PyTorch/TensorFlow", "Python", "Statistical Modeling", "Experimentation", "Recommendation Systems"],
+
     JobHighlights: [
       "Enrolled in a PhD or Master’s program in a quantitative field (CS, ML, Statistics)",
       "Experience with machine learning frameworks (PyTorch, TensorFlow)",
@@ -3575,28 +4058,35 @@ export const Joblist = [
       "Work closely with engineering teams to deploy models safely and at scale.",
       "Conduct literature reviews and summarize research findings.",
       "Prepare a final report and presentation on project results and impact."
-    ],
-    IndustryType: "IT Services",
-    Department: "Data Science",
-    KeySkills: ["Machine Learning", "PyTorch/TensorFlow", "Python", "Statistical Modeling", "Experimentation", "Recommendation Systems"]
+    ]
   },
   {
     id: "91",
     title: "Data Analyst (Internship)",
     company: "Tata Consultancy Services",
     companyId: "TCS001",
+    logo: Tcs,
+    posted: "2025/11/05",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Analytics"],
+    WorkType: "On-site",
+    Shift: "Night",
+    duration: "3 months duration",
+
     ratings: 3.9,
     reviewNo: 259,
-    duration: "3 months duration",
     salary: "3.5",
     experience: "0",
     location: "Coimbatore",
-    tags: ["Internship"],
-    posted: "2025/11/05",
     openings: 5,
     applicants: 40,
-    WorkType: "On-site",
-    logo: Tcs,
+    tags: ["Internship"],
+
+    EducationRequired: ["B.Sc", "B.Tech/B.E.", "BCA", "Any Graduate", "M.Sc (Science)"],
+    KeySkills: ["SQL", "Excel", "Data Cleansing", "Tableau", "Data Analysis"],
+
     JobHighlights: [
       "Freshers can also apply",
       "Proficiency in SQL and MS Excel",
@@ -3611,28 +4101,35 @@ export const Joblist = [
       "Collaborate with project managers to understand reporting needs and deliverables.",
       "Assist in documentation of data sources and analytical processes.",
       "Present analysis findings to internal project teams."
-    ],
-    IndustryType: "IT Services",
-    Department: "Analytics",
-    KeySkills: ["SQL", "Excel", "Data Cleansing", "Tableau", "Data Analysis"]
+    ]
   },
   {
     id: "92",
     title: "Full Stack Developer",
     company: "Tata Consultancy Services",
     companyId: "TCS001",
+    logo: Tcs,
+    posted: "2025/11/20",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Engineering"],
+    WorkType: "Hybrid",
+    Shift: "Rotational",
+    duration: "Permanent",
+
     ratings: 3.9,
     reviewNo: 259,
-    duration: "Permanent",
     salary: "7.5",
     experience: "3",
     location: "Chennai",
-    tags: ["Full-time"],
-    posted: "2025/11/20",
     openings: 15,
     applicants: 120,
-    WorkType: "Hybrid",
-    logo: Tcs,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "MCA", "M.Tech", "Any Graduate", "BCA"],
+    KeySkills: ["React", "Node.js/Java", "SQL", "Cloud", "API Development", "Full Stack"],
+
     JobHighlights: [
       "Expertise in MERN/MEAN stack development",
       "Experience with cloud services (AWS/Azure)",
@@ -3647,28 +4144,35 @@ export const Joblist = [
       "Participate in technical design and code reviews to ensure quality and standards.",
       "Collaborate with QA teams to debug and resolve system defects.",
       "Deploy and manage applications in a cloud environment."
-    ],
-    IndustryType: "IT Services",
-    Department: "Engineering",
-    KeySkills: ["React", "Node.js/Java", "SQL", "Cloud", "API Development", "Full Stack"]
+    ]
   },
   {
     id: "93",
     title: "DevOps Engineer",
     company: "Tata Consultancy Services",
     companyId: "TCS001",
+    logo: Tcs,
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["DevOps"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.9,
     reviewNo: 259,
-    duration: "Permanent",
     salary: "10.0",
     experience: "5",
     location: "Mumbai",
-    tags: ["Full-time"],
-    posted: "2025/11/15",
     openings: 8,
     applicants: 90,
-    WorkType: "Remote",
-    logo: Tcs,
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "BCA", "Any Graduate", "MCA"],
+    KeySkills: ["Kubernetes", "CI/CD", "Terraform", "AWS/Azure", "Python/Bash", "Monitoring"],
+
     JobHighlights: [
       "Deep experience with CI/CD tools (Jenkins, GitLab CI)",
       "Expertise in containerization (Docker, Kubernetes)",
@@ -3683,28 +4187,35 @@ export const Joblist = [
       "Monitor system performance and implement robust logging and alerting solutions.",
       "Automate deployment, scaling, and operational tasks using scripting languages.",
       "Ensure compliance with security standards and implement DevSecOps practices."
-    ],
-    IndustryType: "IT Services",
-    Department: "DevOps",
-    KeySkills: ["Kubernetes", "CI/CD", "Terraform", "AWS/Azure", "Python/Bash", "Monitoring"]
+    ]
   },
   {
     id: "94",
     title: "Business Analyst",
     company: "Tata Consultancy Services",
     companyId: "TCS001",
+    logo: Tcs,
+    posted: "2025/11/10",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Consulting"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 3.9,
     reviewNo: 259,
-    duration: "Permanent",
     salary: "8.5",
     experience: "4",
     location: "Hyderabad",
-    tags: ["Full-time"],
-    posted: "2025/11/10",
     openings: 12,
     applicants: 80,
-    WorkType: "On-site",
-    logo: Tcs,
+    tags: ["Full-time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "B.B.A/ B.M.S", "Any Graduate", "Any Postgraduate"],
+    KeySkills: ["Requirements Elicitation", "Process Modeling", "Stakeholder Management", "Agile", "UML/BPMN"],
+
     JobHighlights: [
       "Strong experience in requirements elicitation and documentation",
       "Familiarity with process modeling and diagramming tools",
@@ -3719,28 +4230,35 @@ export const Joblist = [
       "Perform gap analysis and feasibility studies for proposed solutions.",
       "Support the development team during implementation and the QA team during testing.",
       "Manage changes to requirements and project scope throughout the development lifecycle."
-    ],
-    IndustryType: "IT Services",
-    Department: "Consulting",
-    KeySkills: ["Requirements Elicitation", "Process Modeling", "Stakeholder Management", "Agile", "UML/BPMN"]
+    ]
   },
   {
     id: "97",
     title: "Cloud Consultant",
     company: "Google",
     companyId: "GGL001",
+    logo: "Google",
+    posted: "2025/11/15",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Consulting"],
+    WorkType: "Remote",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.4,
     reviewNo: 869,
-    duration: "Permanent",
     salary: "28.0",
     experience: "6",
     location: "Mumbai",
-    tags: ["Full-time"],
-    posted: "2025/11/15",
     openings: 7,
     applicants: 80,
-    WorkType: "Remote",
-    logo: "Google",
+    tags: ["Full-time"],
+
+    EducationRequired: ["B.Tech/B.E.", "M.Tech", "Any Graduate", "Any Postgraduate", "MS/M.Sc (Science)"],
+    KeySkills: ["Google Cloud Platform", "Cloud Migration", "Architecture Design", "DevOps", "Networking", "Security"],
+
     JobHighlights: [
       "Professional certification in Google Cloud Platform (GCP)",
       "Proven experience in advising clients on cloud migration and strategy",
@@ -3755,28 +4273,35 @@ export const Joblist = [
       "Provide best practices and governance recommendations for security and operations on the cloud.",
       "Develop and deliver technical presentations and workshops to customer teams.",
       "Act as a trusted technical advisor, ensuring client satisfaction and consumption of GCP services."
-    ],
-    IndustryType: "IT Services",
-    Department: "Consulting",
-    KeySkills: ["Google Cloud Platform", "Cloud Migration", "Architecture Design", "DevOps", "Networking", "Security"]
+    ]
   },
   {
     id: "98",
     title: "UX Research Intern",
     company: "Google",
     companyId: "GGL001",
+    logo: "Google",
+    posted: "2025/11/10",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["UX Research"],
+    WorkType: "Hybrid",
+    Shift: "General",
+    duration: "6 months duration",
+
     ratings: 4.4,
     reviewNo: 869,
-    duration: "6 months duration",
     salary: "5.5",
     experience: "1",
     location: "Hyderabad",
-    tags: ["Internship"],
-    posted: "2025/11/10",
     openings: 4,
     applicants: 50,
-    WorkType: "Hybrid",
-    logo: "Google",
+    tags: ["Internship"],
+
+    EducationRequired: ["MS/M.Sc (Science)", "M.A", "Ph.D", "B.Tech/B.E.", "Any Graduate"],
+    KeySkills: ["Qualitative Research", "Usability Testing", "Survey Design", "HCI", "Synthesis", "Interviews"],
+
     JobHighlights: [
       "Enrolled in a Master's or PhD program in HCI, Psychology, or related field",
       "Experience with qualitative and quantitative research methods (interviews, surveys)",
@@ -3791,28 +4316,35 @@ export const Joblist = [
       "Collaborate with UX Designers and Product Managers to prioritize research questions.",
       "Prepare research findings, reports, and compelling presentations.",
       "Manage participant recruitment and communication logistics."
-    ],
-    IndustryType: "IT Services",
-    Department: "UX Research",
-    KeySkills: ["Qualitative Research", "Usability Testing", "Survey Design", "HCI", "Synthesis", "Interviews"]
+    ]
   },
   {
     id: "99",
     title: "Product Manager",
     company: "Google",
     companyId: "GGL001",
+    logo: "Google",
+    posted: "2025/11/01",
+    PostedBy: "Company Jobs",
+
+    IndustryType: ["IT Services"],
+    Department: ["Product Management"],
+    WorkType: "On-site",
+    Shift: "General",
+    duration: "Permanent",
+
     ratings: 4.4,
     reviewNo: 869,
-    duration: "Permanent",
     salary: "35.0",
     experience: "7",
     location: "Bengaluru",
-    tags: ["Full-time"],
-    posted: "2025/11/01",
     openings: 5,
     applicants: 100,
-    WorkType: "On-site",
-    logo: "Google",
+    tags: ["Full-time"],
+
+    EducationRequired: ["MBA/PGDM", "B.Tech/B.E.", "MS/M.Sc (Science)", "Any Postgraduate", "Any Graduate"],
+    KeySkills: ["Product Strategy", "Roadmapping", "Agile/Scrum", "Market Analysis", "User Stories", "Stakeholder Management"],
+
     JobHighlights: [
       "Proven experience managing technical products (e.g., B2B, Cloud, or consumer platform)",
       "Exceptional ability to define product vision, strategy, and roadmap",
@@ -3827,9 +4359,6 @@ export const Joblist = [
       "Collaborate with Data Science to set key performance indicators (KPIs) and monitor product health.",
       "Communicate product strategy and updates to executive leadership and stakeholders.",
       "Conduct competitive analysis and market research to identify new opportunities."
-    ],
-    IndustryType: "IT Services",
-    Department: "Product Management",
-    KeySkills: ["Product Strategy", "Roadmapping", "Agile/Scrum", "Market Analysis", "User Stories", "Stakeholder Management"]
+    ]
   }
-]
+];

@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Footer.css";
 import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 export const Footer = () => {
+  const navigate = useNavigate()
   return (
     <footer className="footer-section">
       <div className="footer-top">
@@ -20,7 +22,7 @@ export const Footer = () => {
         <div className="footer-link-section">
           <h3>Quick Links</h3>
           <ul>
-            <Link to={'/Job-portal/aboutus'}><li>About Us</li></Link>
+            <li onClick={()=>navigate('/Job-portal/aboutus')}>About Us</li>
             <li>Contact Us</li>
             <li>FAQs</li>
             <li>Blog</li>

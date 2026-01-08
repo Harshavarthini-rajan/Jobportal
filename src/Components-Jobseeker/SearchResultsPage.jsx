@@ -1,16 +1,17 @@
 import React, { useState, useMemo } from 'react'
-import { JHeader } from './JHeader'
+import { Header } from '../Components-LandingPage/Header'
 import search from '../assets/icon_search.png'
 import location from '../assets/icon_location.png'
 import tick from '../assets/icon_tick.png'
 import './SearchResultsPage.css'
 import { Joblist } from '../JobList'
-import SearchResultsCard from './SearchResultsCard'
 import { Footer } from '../Components-LandingPage/Footer'
-import formatPostedDate from './OpportunitiesCard'
+import SearchResultsCard from './SearchResultsCard'
+
  
  
  
+  
 const SearchResultsPage = () => {
  
 const countPropertyOccurrences = (data, property) => {
@@ -18,6 +19,35 @@ const countPropertyOccurrences = (data, property) => {
     const value = item[property];
     // Create a safe key: lowercase the value or use a fallback
     const key = value ? value.toLowerCase() : `Unknown ${property}`;
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+};
+ const formatPostedDate = (dateString)=>{
+    const postedDate = new Date(dateString);
+    const today = new Date();
+ 
+    const diffInMs = today - postedDate;
+    const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+ 
+    if (diffInDays === 0) return "Today";
+    if (diffInDays === 1) return "Yesterday";
+    if (diffInDays > 1 && diffInDays <= 7)  return `${diffInDays} days ago`;
+    if (diffInDays > 8 && diffInDays <= 14)  return `1 Week ago`;
+    if (diffInDays > 15 && diffInDays <= 21)  return `2 Week ago`;
+    if (diffInDays > 22 && diffInDays <= 29)  return `3 Week ago`;
+    if (diffInDays > 30 && diffInDays <= 60) return `1 month ago`;
+   
+     return `Long ago`;
+   
+  }
+ 
+const countPostedDate = (data, property) => {
+  return data.reduce((acc, item) => {
+    const value = item[property];
+    // Create a safe key: lowercase the value or use a fallback
+    const key = value ? formatPostedDate(value) : `Unknown ${property}`;
+    console.log(formatPostedDate(value))
     acc[key] = (acc[key] || 0) + 1;
     return acc;
   }, {});
@@ -32,12 +62,23 @@ const educationCounts = Joblist.reduce((acc, item) => {
   return acc;
 }, {});
  
+const IndustryCounts = Joblist.reduce((acc, item) => {
+  item.IndustryType.forEach((int )=> {
+    // Normalize to lowercase to avoid "MBA" vs "mba" issues
+    const degree = int.toLowerCase();
+    acc[degree] = (acc[degree] || 0) + 1;
+  });
+  return acc;
+}, {});
+ 
  
 // Usage:
   const locationCounts = countPropertyOccurrences(Joblist, 'location');
   const workTypeCounts = countPropertyOccurrences(Joblist, 'WorkType');
   const PostedbyCounts = countPropertyOccurrences(Joblist,'PostedBy')
   const CompanyCounts = countPropertyOccurrences(Joblist,'company');
+  const PostedDtCounts = countPostedDate(Joblist,'posted')
+
  
  
  
@@ -47,9 +88,9 @@ const educationCounts = Joblist.reduce((acc, item) => {
   const PostedbyArray = Object.entries(PostedbyCounts);
   const TopcompanyArray = Object.entries(CompanyCounts);
   const checkboxList = Object.entries(educationCounts);
- 
- 
- 
+  const PostedDateArray = Object.entries(PostedDtCounts);
+  const IndustryType = Object.entries(IndustryCounts);
+ console.log(IndustryType)
  
  
   const [locationFilters, setLocationFilters] = useState(locationArray.slice(0,5));
@@ -57,18 +98,24 @@ const educationCounts = Joblist.reduce((acc, item) => {
   const [PostedbyFilter, setPostedbyFilter] = useState(PostedbyArray);
   const [CompanyFilter, setCompanyFilter] = useState(TopcompanyArray.slice(0,5));
   const [EducationFilter, setEducationFilter] = useState(checkboxList.slice(0,5));
+  const [PostedDateFilter, setPostedDateFilter] = useState(PostedDateArray);
+  const [IndustryTypeFilter, setIndustryTypeFilter] = useState(IndustryType.slice(0,5));
  
  
  
   const [TopCompanyExpanded, setTopCompanyExpanded] = useState(false);
   const [LocationExpanded, setLocationExpanded] = useState(false);
+  const [IndustryTypeExpanded, setIndustryTypeExpanded] = useState(false);
+ 
  
  
   const [selectedLocations, setSelectedLocations] = useState([]);
   const [selectedWorkType, setselectedWorkType] = useState([]);
   const [SelectedPostedby, setSelectedPostedby] = useState([]);
   const [SelectedCompany, setSelectedCompany] = useState([]);
-  const [SelectedEducation, setSelectedEducation] = useState([]);  
+  const [SelectedEducation, setSelectedEducation] = useState([]);
+  const [SelectedPostDate, setSelectedPostDate] = useState([]);
+  const [SelectedIndustryType, setSelectedIndustryType] = useState([]);  
  
   const HandleClear=()=>{
     setSelectedLocations([]);
@@ -76,6 +123,8 @@ const educationCounts = Joblist.reduce((acc, item) => {
     setSelectedPostedby([]);
     setSelectedCompany([]);
     setSelectedEducation([]);
+    setSelectedPostDate([]);
+    setSelectedIndustryType([]);
   }
  
   const handleLocationViewMore = () => {
@@ -86,7 +135,10 @@ const educationCounts = Joblist.reduce((acc, item) => {
     if (TopCompanyExpanded) {setCompanyFilter(TopcompanyArray.slice(0, 5));}
     else {setCompanyFilter(TopcompanyArray)} setTopCompanyExpanded(!TopCompanyExpanded);
   }
- 
+  const handleIndustryViewMore = () => {
+    if (IndustryTypeExpanded) {setIndustryTypeExpanded(IndustryType.slice(0, 5));}
+    else {setIndustryTypeExpanded(IndustryType)} setTopCompanyExpanded(!IndustryTypeExpanded);
+  }
  
  
   const handleLocationChange = (event) => {
@@ -102,6 +154,7 @@ const educationCounts = Joblist.reduce((acc, item) => {
       }
     });
   };
+  
   const HandleWorkType = (event) => {
     const WorkType = event.target.value;
     const isChecked = event.target.checked;
@@ -158,6 +211,34 @@ const educationCounts = Joblist.reduce((acc, item) => {
       }
     });
   };
+  const HandlePostedDate = (event) => {
+    const PostedDate = event.target.value;
+    const isChecked = event.target.checked;
+ 
+    setSelectedPostDate(prevPostedDate => {
+      if (isChecked) {
+       
+        return [...prevPostedDate, PostedDate];
+      } else {
+       
+        return prevPostedDate.filter(post => post !== PostedDate);
+      }
+    });
+  };
+  const HandleIndustryType = (event) => {
+    const IndustryType = event.target.value;
+    const isChecked = event.target.checked;
+ 
+    setSelectedIndustryType(prevIndustryType => {
+      if (isChecked) {
+       
+        return [...prevIndustryType, IndustryType];
+      } else {
+       
+        return prevIndustryType.filter(int => int !== IndustryType);
+      }
+    });
+  };
  
  
  
@@ -180,21 +261,22 @@ const educationCounts = Joblist.reduce((acc, item) => {
     const JobCompany = job.company ? job.company.toLowerCase() : 'unknown company';
     const matchesCompany = SelectedCompany.length === 0 || SelectedCompany.includes(JobCompany);
  
-    // const JobEducation = job.EducationRequired.forEach(edu=>edu ? edu.toLowerCase() : "UnKnown Edu");
-    // const matchesEducation = SelectedEducation.length === 0 || SelectedEducation.includes(JobEducation);
+    const JobPosted = job.posted ? formatPostedDate(job.posted) : "UnKnown posted";
+    const matchesPostedDate = SelectedPostDate.length === 0 || SelectedPostDate.includes(JobPosted);
  
     const matchesEducation = SelectedEducation.length === 0 || job.EducationRequired.some(edu => SelectedEducation.includes(edu.toLowerCase()))
  
-   
-    return matchesLocation && matchesWorkType && matchesPostedby && matchesCompany && matchesEducation ;
+    const matchesIndustryType = SelectedIndustryType.length === 0 || job.IndustryType.some(edu => SelectedIndustryType.includes(edu.toLowerCase()))
+ 
+    return matchesLocation && matchesWorkType && matchesPostedby && matchesCompany && matchesEducation && matchesPostedDate && matchesIndustryType ;
   });
-}, [Joblist, selectedLocations, selectedWorkType,SelectedPostedby,SelectedCompany,SelectedEducation]);
+}, [Joblist, selectedLocations, selectedWorkType,SelectedPostedby,SelectedCompany,SelectedEducation,SelectedPostDate, SelectedIndustryType]);
  
  
  
   return (
     <>
-      <JHeader />
+      <Header />
       <div className='jobs-tab-search-bar'>
         <div className="search-bar">
           <div className="search-field">
@@ -220,7 +302,7 @@ const educationCounts = Joblist.reduce((acc, item) => {
             </select>
           </div>
  
-          <button onClick={() => navigate('/Job-portal/jobseeker/myprofile/SearchResults')} className="search-button">Search</button>
+          <button onClick={() => navigate('/Job-portal/jobseeker/myprofile/searchresults')} className="search-button">Search</button>
         </div>
       </div>
       <div className='search-result-title'>
@@ -259,7 +341,7 @@ const educationCounts = Joblist.reduce((acc, item) => {
                 </div>
               );
             })}
-          </div>
+          </div> 
  
           <div className='Search-Worktype-Container'>
             <h4>Location</h4>
@@ -298,6 +380,7 @@ const educationCounts = Joblist.reduce((acc, item) => {
             <h4>Posted by</h4>
             {PostedbyFilter.map(([post, count]) => {  
               const Postedby = post.charAt(0).toUpperCase() + post.slice(1);
+              console.log(PostedbyFilter)
               return (
                 <div key={post}>
                   <label htmlFor={`postedby-${post}`} className="location-checkbox-label">
@@ -348,6 +431,35 @@ const educationCounts = Joblist.reduce((acc, item) => {
  
           </div>
  
+          {/* <div className='Search-Worktype-Container'>
+            <h4>Education</h4>
+            {EducationFilter.map(([edu,count]) => {
+              const Education = edu.charAt(0).toUpperCase() + edu.slice(1);
+              return (
+                <div key={edu}>
+                  <label htmlFor={`Education-${edu}`} className="location-checkbox-label">  
+                    <input
+                      type="checkbox"
+                      id={`Education-${edu}`}
+                      name="Education"
+                      value={edu}
+                      onChange={HandleEducation}
+                      checked={SelectedEducation.includes(edu)}
+                    />
+                    <span className="location-text">
+                      {Education}
+                      {count > 1 && `(${count})`}
+                    </span>
+                  </label>
+                </div>
+              );
+            })}
+            <div className='viewmore-cont'>
+              <button onClick={handleCompanyViewMore} className='viewmore-btn'>{ TopCompanyExpanded ? 'View Less' : 'View More'}</button>
+            </div>
+ 
+          </div> */}
+
           <div className='Search-Worktype-Container'>
             <h4>Education</h4>
             {EducationFilter.map(([edu,count]) => {
@@ -376,6 +488,57 @@ const educationCounts = Joblist.reduce((acc, item) => {
             </div>
  
           </div>
+ 
+          <div className='Search-Worktype-Container'>
+            <h4>Freshness</h4>
+            {PostedDateFilter.map(([Post,count]) => {
+              const PostedDate = Post
+              return (
+                <div key={Post}>
+                  <label htmlFor={`PostedDate-${Post}`} className="location-checkbox-label">  
+                    <input
+                      type="checkbox"
+                      id={`PostedDate-${Post}`}
+                      name="PostedDate"
+                      value={Post}
+                      onChange={HandlePostedDate}
+                      checked={SelectedPostDate.includes(Post)}
+                    />
+                    <span className="location-text">
+                      {PostedDate}
+                      {/* {console.log(PostedDate)} */}
+                      {count > 1 && ` (${count})`}
+                    </span>
+                  </label>
+                </div>
+              );
+            })}
+          </div>
+          <div className='Search-Worktype-Container'>
+            <h4>Industry Type</h4>
+            {IndustryTypeFilter.map(([int,count]) => {
+              const IndustryType = int.charAt(0).toUpperCase() + int.slice(1);
+              return (
+                <div key={int}>
+                  <label htmlFor={`IndustryType-${int}`} className="location-checkbox-label">  
+                    <input
+                      type="checkbox"
+                      id={`IndustryType-${int}`}
+                      name="IndustryType"
+                      value={int}
+                      onChange={HandleIndustryType}
+                      checked={SelectedIndustryType.includes(int)}
+                    />
+                    <span className="location-text">
+                      {IndustryType}
+                      {/* {console.log(PostedDate)} */}
+                      {count > 1 && ` (${count})`}
+                    </span>
+                  </label>
+                </div>
+              );
+            })}
+          </div>
         </div>
  
         <div className='maincontent'>
@@ -400,4 +563,5 @@ const educationCounts = Joblist.reduce((acc, item) => {
 }
  
 export default SearchResultsPage
+ 
  

@@ -1,8 +1,8 @@
 import React from 'react'
-import { JHeader } from './JHeader';
+import { Header } from '../Components-LandingPage/Header';
 import { Footer } from '../Components-LandingPage/Footer';
 import { Link, useParams } from 'react-router-dom';
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import './OpportunityOverview.css'
 import breifcase from '../assets/header_case.png'
 import chat from '../assets/header_message.png'
@@ -37,7 +37,7 @@ export const OpportunityOverview = () => {
  
   return (
     <>
-      <JHeader />
+      <Header />
       <div className='opp-overview-content'>
         <div className='search-backbtn-container'>
           <button className="back-btn" onClick={() => navigate(-1)}>Back</button>
@@ -172,7 +172,7 @@ export const OpportunityOverview = () => {
             <h3>Similar Jobs</h3>
             {limitedSimilarJob.length > 0 ? limitedSimilarJob.map((sim) => (
               <div key={sim.id} className="opp-similar-job">
-                  <div onClick={() => navigate(`/Job-portal/jobseeker/OpportunityOverview/${sim.id}`)} className="Opportunities-job-header">
+                  <div onClick={() => navigate(`/Job-portal-live/jobseeker/OpportunityOverview/${sim.id}`)} className="Opportunities-job-header">
                     <div>
                       <h2 className="similar-job-title">{sim.title}</h2>
                       <p className="similar-job-company">{sim.company} <span className="Opportunities-divider">|</span><span className="star"><img src={starIcon} /></span> {sim.ratings} <span className="Opportunities-divider">|</span><span> {sim.reviewNo} reviews</span></p>
@@ -206,3 +206,4 @@ export const OpportunityOverview = () => {
  
   )
 }
+ 

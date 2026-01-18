@@ -7,7 +7,7 @@ import starIcon from '../assets/Star_icon.png'
 import { CompaniesList } from "../CompaniesList";
 import { Joblist } from "../JobList";
 import { AvatarMenu } from './AvatarMenu';
-import { JHeader } from './JHeader';
+import { Header } from '../Components-LandingPage/Header'
 
 export const JobsThroughCompany = () => {
 
@@ -92,7 +92,7 @@ export const JobsThroughCompany = () => {
     return (
 
         <>
-            <JHeader />
+            <Header />
             <div className='job-search-companies'>
                 <section className='Opportunities-section'>
                     <div className="company-header-container">

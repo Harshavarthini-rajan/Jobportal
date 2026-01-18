@@ -5,7 +5,7 @@ import addPhoto from '../assets/AddPhoto.png'
 import editIcon from '../assets/EditIcon.png'
 import uploadIcon from '../assets/UploadIcon.png'
 import deleteIcon from '../assets/DeleteIcon.png'
-import { JHeader } from './JHeader';
+import { Header } from '../Components-LandingPage/Header'
 
 // --- REUSABLE COMPONENTS ---
 
@@ -724,7 +724,7 @@ export const MyProfile = () => {
 
     return (
         <div>
-            <JHeader />
+            <Header />
             <main>
                 <div className='profile-main-desc'>
                     <h1>My Profile</h1>

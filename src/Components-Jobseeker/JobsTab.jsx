@@ -7,7 +7,7 @@ import location from '../assets/icon_location.png'
 import tick from '../assets/icon_tick.png'
 import { Joblist } from "../JobList";
 import { OpportunitiesCard } from './OpportunitiesCard';
-import { JHeader } from './JHeader';
+import { Header } from '../Components-LandingPage/Header'
 
 export const JobsTab = () => {
     const displayCount = 10;
@@ -81,7 +81,7 @@ export const JobsTab = () => {
 
     return (
         <>
-            <JHeader />
+            <Header />
             <div className='jobs-tab-search-bar'>
                 <div className="search-bar">
                     <div className="search-field">

@@ -1,11 +1,11 @@
 @media (max-width: 768px) {
     .search-bar {
-      flex-direction: column;
-      padding: 15px;
-      border-radius: 12px;
-      gap: 10px;
-      width: 90%;
-      margin: 0 auto;
+        flex-direction: column;
+        padding: 15px;
+        border-radius: 12px;
+        gap: 10px;
+        width: 90%;
+        margin: 0 auto;
     }
  
     .search-field {
@@ -19,7 +19,7 @@
     }
  
     .separator {
-        display: none; 
+        display: none;
     }
  
     .search-button {
@@ -27,15 +27,12 @@
         padding: 12px;
         margin-top: 10px;
     }
-    
 }
-
 .carousel-wrapper {
   padding: 40px 20px;
   overflow: hidden;
-  padding-bottom: 0;
 }
-
+ 
 .carousel-card {
   background: #fff;
   border-radius: 12px;
@@ -44,13 +41,7 @@
   box-shadow: 0 4px 14px rgba(0,0,0,0.08);
   height: auto;
 }
-
-.carousel-view-all-wrapper {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
+ 
 .slick-slide {
   display: flex ;
   justify-content: center;

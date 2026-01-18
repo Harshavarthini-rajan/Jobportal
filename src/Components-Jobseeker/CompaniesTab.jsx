@@ -8,7 +8,7 @@ import location from '../assets/icon_location.png'
 import tick from '../assets/icon_tick.png'
 import starIcon from '../assets/Star_icon.png'
 import { CompaniesList } from '../CompaniesList';
-import { JHeader } from './JHeader';
+import { Header } from '../Components-LandingPage/Header'
 
 /* Below Code is removed after backend integration*/
 const companiesList = CompaniesList.slice(0,8)
@@ -18,7 +18,7 @@ export const CompaniesTab = () => {
 
   return (
     <>
-      <JHeader />
+      <Header />
       <div className='jobs-tab-search-bar'>
         <div className="search-bar">
           <div className="search-field">

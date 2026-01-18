@@ -4,7 +4,7 @@ import { Footer } from '../Components-LandingPage/Footer';
 import { Link } from 'react-router-dom';
 import { SavedJobsCard } from './SavedJobsCard';
 import { AppliedJobCard } from './AppliedJobCard';
-import { JHeader } from './JHeader';
+import { Header } from '../Components-LandingPage/Header'
 
 /* Below Code is removed after backend integration*/
 const savedJobsList = [
@@ -151,7 +151,7 @@ export const MyJobs = () => {
 
     return (
         <>
-            <JHeader />
+            <Header />
             <main>
                 <div className='myjobs-main-info'>
                     <h1>"My Jobs"</h1>

@@ -171,7 +171,6 @@ ul {
   margin-bottom: 17px;
   padding-left: 10px;
   padding-right: 10px;
-  cursor: pointer;
 }
 
 .similar-job-title {
@@ -211,4 +210,114 @@ ul {
 
 .similar-job-footer-posted {
   margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+
+  .opp-overview-content {
+    margin-top: 8rem; 
+    margin-left: 15px; 
+    margin-right: 15px;
+    margin-bottom: 5rem;
+  }
+
+  .back-btn{
+    display: none;
+  }
+  
+  .search-backbtn-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+    margin-bottom: 3rem;
+  }
+
+  .search-bar {
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    gap: 10px;
+  }
+
+  .search-bar .separator {
+    display: none; 
+  }
+
+  .search-field {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+
+  
+  .opp-overview-main {
+    flex-direction: column;
+  }
+
+  .opp-overview-job-card, 
+  .opp-job-details-card, 
+  .opp-job-sidebar {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    margin-right: 0;
+    box-sizing: border-box;
+  }
+
+  .opp-job-main {
+    flex: none;
+    width: 100%;
+  }
+
+  
+  .opp-topcard-job-title {
+    font-size: 1.2rem;
+  }
+
+  .Opportunities-job-header {
+    align-items: flex-start;
+  }
+
+  .Opportunities-job-logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .Opportunities-job-footer {
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+  }
+
+  .Opportunities-job-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .Opportunities-save-btn, 
+  .Opportunities-apply-btn {
+    flex: 1;
+    padding: 12px 0;
+  }
+  
+  .opp-share-job {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .opp-report-btn {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .opp-job-sidebar {
+    padding: 15px;
+    box-shadow: none;
+    border-top: 2px solid #eee;
+    margin-top: 20px;
+  }
 }

@@ -1,5 +1,3 @@
-/* Harshavarthini */
-
 .avatar-container {
   position: relative;
   display: inline-block;
@@ -56,7 +54,7 @@
   margin: 10px 0;
 }
 
-.logout-btn {
+.avatar-logout-btn {
   color: #0066ff;
   background: none;
   border: none;

@@ -1,6 +1,6 @@
-// Harshavarthini
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import avatarIcon from "../assets/header_profile.png";
 import profileIcon from "../assets/icon_profile.png";
 import reviewIcon from "../assets/icon_reviews.png";
@@ -8,7 +8,10 @@ import settingsIcon from "../assets/icon_settings.png";
 import helpIcon from "../assets/icon_help.png";
 import "./AvatarMenu.css";
 
+
 export const AvatarMenu = () => {
+  const navigate = useNavigate();
+
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -39,24 +42,24 @@ export const AvatarMenu = () => {
             Profile
           </Link>
 
-          <Link to="/Job-portal/jobseeker/reviews" className="menu-item">
+          <Link to="" className="menu-item">
             <img src={reviewIcon} className="menu-icon" alt="reviews" />
             My reviews
           </Link>
 
-          <Link to="/Job-portal/jobseeker/settings" className="menu-item">
+          <Link to="" className="menu-item">
             <img src={settingsIcon} className="menu-icon" alt="settings" />
             Settings
           </Link>
 
-          <Link to="/Job-portal/jobseeker/help" className="menu-item">
+          <Link to="" className="menu-item">
             <img src={helpIcon} className="menu-icon" alt="help" />
             Help Centre
           </Link>
 
           <div className="menu-divider"></div>
 
-          <button className="menu-item logout-btn">Logout</button>
+          <button onClick={() => navigate('/Job-portal')} className="menu-item avatar-logout-btn">Logout</button>
         </div>
       )}
     </div>

@@ -37,29 +37,29 @@ export const AvatarMenu = () => {
 
       {open && (
         <div className="avatar-menu">
-          <Link to="/Job-portal/jobseeker/myprofile" className="menu-item">
+          <Link to="/Job-portal/jobseeker/myprofile" className="menu-items">
             <img src={profileIcon} className="menu-icon" alt="profile" />
             Profile
           </Link>
 
-          <Link to="" className="menu-item">
+          <Link to="" className="menu-items">
             <img src={reviewIcon} className="menu-icon" alt="reviews" />
             My reviews
           </Link>
 
-          <Link to="" className="menu-item">
+          <Link to="" className="menu-items">
             <img src={settingsIcon} className="menu-icon" alt="settings" />
             Settings
           </Link>
 
-          <Link to="" className="menu-item">
+          <Link to="" className="menu-items">
             <img src={helpIcon} className="menu-icon" alt="help" />
             Help Centre
           </Link>
 
           <div className="menu-divider"></div>
 
-          <button onClick={() => navigate('/Job-portal')} className="menu-item avatar-logout-btn">Logout</button>
+          <button onClick={() => navigate('/Job-portal')} className=" avatar-logout-btn">Logout</button>
         </div>
       )}
     </div>

@@ -30,7 +30,7 @@
   overflow: hidden;         
 }
 
-.menu-item {
+.menu-items {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -44,7 +44,7 @@
   box-sizing: border-box;    
 }
 
-.menu-item:hover {
+.menu-items:hover {
   background: #f5f7fb;
 }
 

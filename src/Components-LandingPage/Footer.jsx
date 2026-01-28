@@ -22,9 +22,9 @@ export const Footer = () => {
         <div className="footer-link-section">
           <h3>Quick Links</h3>
           <ul>
-            <li onClick={()=>navigate('/Job-portal/aboutus')}>About Us</li>
+            <li onClick={()=>navigate('/Job-portal/jobseeker/aboutus')}>About Us</li>
             <li>Contact Us</li>
-            <li>FAQs</li>
+            <li onClick={()=>navigate('/Job-portal/jobseeker/FAQs')}>FAQs</li>
             <li>Blog</li>
           </ul>
         </div>

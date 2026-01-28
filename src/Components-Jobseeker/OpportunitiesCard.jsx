@@ -19,7 +19,7 @@ function formatPostedDate(dateString) {
     if (diffInDays > 60 && diffInDays <= 90) return `Posted: 2+ months ago`;
 
     return `Posted: Long ago`;
-  }
+}
 
 export default formatPostedDate;
   

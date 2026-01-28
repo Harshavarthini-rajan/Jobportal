@@ -18,8 +18,10 @@ import { CompaniesTab } from './Components-Jobseeker/CompaniesTab'
 import { MyProfile } from './Components-Jobseeker/MyProfile'
 import { JobsThroughCompany } from './Components-Jobseeker/JobsThroughCompany'
 import { AboutUs } from './Components-LandingPage/AboutUs'
+import FAQs from './Components-LandingPage/FAQs'
 import SearchResultsPage from './Components-Jobseeker/SearchResultsPage'
-
+import AppliedJobsOverview from './Components-Jobseeker/AppliedJobsOverview'
+import { JobProvider } from './Components-Jobseeker/Jobcontext'
 
 
 const router = createBrowserRouter([
@@ -93,18 +95,29 @@ const router = createBrowserRouter([
     element: <MyProfile />,
   },
   {
-    path: '/Job-portal/aboutus',
+    path: '/Job-portal/jobseeker/aboutus',
     element: <AboutUs />,
   },
-  
   {
-  path: '/Job-portal/jobseeker/searchresults',
- element: <SearchResultsPage/>
+    path: '/Job-portal/jobseeker/FAQs',
+    element: <FAQs />,
+  },
+  {
+    path: '/Job-portal/jobseeker/searchresults',
+    element: <SearchResultsPage/>
+  },
+  {
+    path: '/Job-portal/jobseeker/AppliedJobsOverview/:id',
+    element: <AppliedJobsOverview/>
   },
 ])
 
 function App() {
-  return <RouterProvider router={router} />
+  return (
+    <JobProvider>
+      <RouterProvider router={router} />
+    </JobProvider>
+  )
 }
 
 export default App

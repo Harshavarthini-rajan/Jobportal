@@ -431,7 +431,7 @@ const IndustryCounts = Joblist.reduce((acc, item) => {
  
           </div>
  
-          {/* <div className='Search-Worktype-Container'>
+          <div className='Search-Worktype-Container'>
             <h4>Education</h4>
             {EducationFilter.map(([edu,count]) => {
               const Education = edu.charAt(0).toUpperCase() + edu.slice(1);
@@ -458,7 +458,7 @@ const IndustryCounts = Joblist.reduce((acc, item) => {
               <button onClick={handleCompanyViewMore} className='viewmore-btn'>{ TopCompanyExpanded ? 'View Less' : 'View More'}</button>
             </div>
  
-          </div> */}
+          </div> 
 
           <div className='Search-Worktype-Container'>
             <h4>Education</h4>

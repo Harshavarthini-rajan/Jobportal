@@ -20,52 +20,39 @@ const FAQs = () => {
   return (
     <>
       <Header />
-
-      <div className="faq-page">
-        <div
-          className="faq-hero"
-          style={{ backgroundImage: `url(${faqsImage})` }}
-        >
-          <div className="faq-hero-content">
-            <h1>Hello, how can we support you?</h1>
-            <p>
-              Welcome to our help center! Here, you'll find answers to frequently
-              asked questions, helpful guides, and useful tips to assist you in
-              getting the most out of our platform.
-            </p>
-
-            <div className="search-box">
-              <input
-                type="text"
-                placeholder="Enter a keyword search"
-              />
-              <button className="search-btn"><img src={searchicon} alt="Search" />
-              </button>
-            </div>
+      <section
+        className="faq-hero"
+        style={{ backgroundImage: `url(${faqsImage})` }}
+      >
+        <div className="faq-hero-overlay">
+          <h1>Hello, how can we support you?</h1>
+          <div className="faq-search">
+            <input type="text" placeholder="Enter a keyword search"/>
+            <button><img src={searchicon} alt="search" /></button>
           </div>
         </div>
+      </section>
 
-        <div className="faq-content">
-          <div className="faq-left">
-            <span className="support-label">Support</span>
+      <section className="faq-section">
+        <div className="faq-container">
+          <div className="faq-info">
+            <span className="faq-back-icon" onClick={() => navigate(-1)}> ‹-- </span>
+            <span className="faq-tag">Support</span>
             <h2>FAQS</h2>
-            <p>
-              Have any questions? We've got answers! Check out our Frequently
-              Asked Questions (FAQs) to find out quick solutions to common
-              queries.<br></br> Save time and get the information you need right here.
+            <p>Have any questions? We've got answers! Check out our Frequently Asked Questions (FAQs) to find out quick solutions to common queries. Save time and get the information you need right here.
             </p>
           </div>
 
-          <div className="faq-right">
+          <div className="faq-list">
             {faqs.map((item, index) => (
-              <div key={index} className="faq-item">
-                <span>{item}</span>
-                <span className="arrow"></span>
+              <div className="faq-row" key={index}>
+                <p>{item}</p>
+                <span className="faq-arrow">›</span>
               </div>
             ))}
           </div>
         </div>
-      </div>
+      </section>
 
       <Footer />
     </>

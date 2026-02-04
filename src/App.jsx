@@ -19,9 +19,11 @@ import { MyProfile } from './Components-Jobseeker/MyProfile'
 import { JobsThroughCompany } from './Components-Jobseeker/JobsThroughCompany'
 import { AboutUs } from './Components-LandingPage/AboutUs'
 import FAQs from './Components-LandingPage/FAQs'
+import {ContactUs} from './Components-LandingPage/ContactUs'
 import SearchResultsPage from './Components-Jobseeker/SearchResultsPage'
 import AppliedJobsOverview from './Components-Jobseeker/AppliedJobsOverview'
 import { JobProvider } from './Components-Jobseeker/Jobcontext'
+import Settings from './Components-Jobseeker/Settings'
 
 
 const router = createBrowserRouter([
@@ -103,12 +105,20 @@ const router = createBrowserRouter([
     element: <FAQs />,
   },
   {
+    path: '/Job-portal/jobseeker/ContactUs',
+    element: <ContactUs />,
+  },
+  {
     path: '/Job-portal/jobseeker/searchresults',
-    element: <SearchResultsPage/>
+    element: <SearchResultsPage />
   },
   {
     path: '/Job-portal/jobseeker/AppliedJobsOverview/:id',
     element: <AppliedJobsOverview/>
+  },
+  {
+    path: '/Job-portal/jobseeker/Settings',
+    element: <Settings />,
   },
 ])
 
